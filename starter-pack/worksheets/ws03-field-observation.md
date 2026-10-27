@@ -96,7 +96,7 @@ Disusun oleh Tim Kelompok: Syncore Team
 ```
 Tanggal Observasi: 12 Oktober 2026
 1. Muhammad Rasikh Zakki Aufa: ____________________ ( Tanda Tangan )
-2. Ananta Rizqi Fadhlurrohman: ![TTD](https://github.com/Ananta2600016011/pbl-level-1-2026-Syncore-Team-Temu_Tempo_Kopi/blob/9dff36401907ced3cee99933c024613a9d186b1a/starter-pack/assets/tanda_tangan_team/tanda_tangan_ananta.png)
+2. Ananta Rizqi Fadhlurrohman: <img src="../assets/tanda_tangan_team/tanda_tangan_ananta.png" width="120" />
 3. Muhammad Dhiyauddin Nur   : ____________________ ( Tanda Tangan )
 4. Satria Ariya Prathama     : ____________________ ( Tanda Tangan )
 5. Alfin Farrel Gennaro      : ____________________ ( Tanda Tangan )
