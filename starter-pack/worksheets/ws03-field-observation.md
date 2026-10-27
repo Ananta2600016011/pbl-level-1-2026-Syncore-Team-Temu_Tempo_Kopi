@@ -96,7 +96,7 @@ Disusun oleh Tim Kelompok: Syncore Team
 ```
 Tanggal Observasi: 12 Oktober 2026
 1. Muhammad Rasikh Zakki Aufa: ____________________ ( Tanda Tangan )
-2. Ananta Rizqi Fadhlurrohman: starter-pack/assets/Tanda Tangan Team ( Tanda Tangan )
+2. Ananta Rizqi Fadhlurrohman: (`starter-pack/assets/`)Tanda Tangan Team ( Tanda Tangan )
 3. Muhammad Dhiyauddin Nur   : ____________________ ( Tanda Tangan )
 4. Satria Ariya Prathama     : ____________________ ( Tanda Tangan )
 5. Alfin Farrel Gennaro      : ____________________ ( Tanda Tangan )
