@@ -1,35 +1,74 @@
-g# WS01 — Team Formation & Project Norms
+# **WORKSHEET BOOK: WS01 — Team Formation & Project Norms** 
 
-**Worksheet Number**: WS01
-**Minggu**: 1
-**Deliverable Terkait**: TPL-09 (Meeting Log) — lampiran D4
+Mata Kuliah: **Konsep Sistem Informasi (KSI)** Kerangka Kerja: **Project-Based Learning (PBL) Level 1** Learning Moment: **Discover (Minggu 1)** 
 
----
+## **Informasi Worksheet** 
 
-## Activity
+- **Worksheet Number** : WS01 
 
-1. Perkenalan singkat anggota: nama, kekuatan, harapan dari proyek
-2. Pilih objek studi dari daftar aman (kantin, warung, koperasi, unit layanan kampus)
-3. Tetapkan skema **rotating phase lead** (jadwal sementara siapa memimpin fase apa; semua anggota memimpin minimal satu fase)
-4. Sepakati norma tim (komunikasi, ketepatan waktu, cara menyelesaikan konflik)
-5. Susun need-to-know list awal (lanjut ke WS02)
+- **Title** : Pembentukan Tim & Kesepakatan Norma 
 
-## Workspace
+- **Learning Moment** : Discover 
 
-### Jadwal Rotating Phase Lead (sementara)
+- **Purpose** : Membentuk tim 4–5 orang, menetapkan _phase lead_ untuk 8 fase proyek, dan menyepakati norma kolaborasi tim. 
 
-| Fase | Minggu | Phase Lead | Tanggung Jawab Utama Coverage |
-|---|---|---|---|
-| Discover | 1 | [Ananta Rizqi Fadhlurrohman] | Koordinasi pembentukan tim, norma, peluncuran |
-| Frame | 2 | [Muhammad Rasikh Zakki Aufa] | Koordinasi observasi & wawancara lapangan |
-| Define | 3–4 | [Satria Ariya Prathama] | Koordinasi kebutuhan & metrik sukses |
-| Design | 5–7 | [Satria Ariya Prathama] | Koordinasi desain solusi & sesi critik |
-| Build | 9–12 | [Muhammad Dhiyauddin Nur] | Koordinasi pengkodean prototipe |
-| Test | 11–12 | [Muhammad Rasikh Zaki Aufa] | Koordinasi pengujian & validasi |
-| Communicate | 14–15 | [Alfin Farrel Gennaro] | Koordinasi penyusunan presentasi publik |
-| Reflect | 13–16 | [Ananta Rizqi Fadhlurrohman] | Koordinasi refleksi, portfolio & passport |
+- **Related Learning Outcome** : CPMK-14; Sub-CPMK S-14.1 (I); SFIA CSMG L2 (Komunikasi Tim). 
 
-*Catatan: jadwal ini dapat disesuaikan sepanjang semester, dicatat di E5 (Meeting Log). Tim 3 orang: dua fase terakhir dikelola bersama.*
+- **Related Deliverable** : Deliverable D4 (bagian kolaborasi / meeting log — _supporting evidence_ ). 
+
+- **Related Module** : Modul M01 ( _Fondasi SI, Proses Bisnis & Value of Information_ ) & Modul M09 ( _Komunikasi Tim_ ). 
+
+- **Estimated Duration** : 1 Sesi (100 Menit), Minggu 1. 
+
+- **Ringkas** : Norma tim disepakati di awal agar seluruh anggota merasa aman menyampaikan pendapat. Peran kepemimpinan tidak bersifat permanen, melainkan dipimpin oleh _Phase Lead_ yang berganti pada setiap fase _Learning Spine_ . 
+
+## **Aktivitas Pembelajaran (Activity)** 
+
+1. **Perkenalan Singkat Anggota** : Setiap anggota menyampaikan nama, kekuatan/keahlian pribadi, dan harapan dari proyek PBL 1. 
+
+2. **Pemilihan Objek Studi** : Memilih unit usaha mikro/kecil mitra di sekitar kampus dari daftar aman yang disediakan oleh dosen pengampu. 
+
+3. **Penetapan Rotasi Phase Lead** : Menentukan penanggung jawab ( _Phase Lead_ ) untuk 8 fase _Learning Spine_ (Discover, Frame, Define, Design, Build, Test, Communicate, Reflect). 
+
+4. **Penyusunan Norma Tim** : Menyepakati aturan main kelompok mencakup norma komunikasi, ketepatan waktu, pembagian beban kerja, dan mekanisme resolusi konflik. 
+
+5. **Inisiasi Need-to-Know List** : Mempersiapkan pertanyaan investigasi awal pada lembar kerja **WS02** . 
+
+## **Ruang Kerja Tim (Workspace)** 
+
+### **1. Identifikasi Kelompok & Objek Studi** 
+
+- **Nama Kelompok** : [Syncore Team] 
+
+- **Kelas / Paralel** : [A] 
+
+- **Objek Studi Terpilih** : [Temu Tempo Kopi] 
+
+- **Bidang Usaha** : [Coffee Shop / Kafe] 
+
+- **Lokasi Mitra** : [Jl. Singoranu No.87, Kragilan, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162] 
+
+- **Narahubung / Pemilik** : [ Mas Joy / +62882008806986 ] 
+
+### **2. Alokasi Kepemimpinan Bergilir (Rotating Phase Lead)** 
+
+|**Fase Learning**<br>**Spine**|**Minggu**|**Phase Lead**<br>**(PIC Utama)**|**Nama Anggota**<br>**Tim**|**Tanggung**<br>**Jawab Utama**<br>**Fase**|
+|---|---|---|---|---|
+|**Fase 1:**<br>**Discover**|M1|**Ananta Rizqi**<br>**Fadhlurrohman**|[Syncore Team]|_Observe +_<br>_Interview Setup_<br>(Memimpin<br>WS01 & WS02)|
+|**Fase 2: Frame**|M2|**Muhammad**<br>**Rasikh Zakki**<br>**Aufa**|[Syncore Team]|_Evidence +_<br>_Insight +_<br>_Problem Scope_<br>(Memimpin<br>WS03 & WS04)|
+|**Fase 3: Define**|M3–M4|**Satria Ariya**<br>**Prathama**|[Syncore Team]|_User_<br>_Requirement +_<br>_Success Metrics_<br>(Memimpin<br>WS05 & WS06)|
+|**Fase 4: Design**|M5–M7|**Satria Ariya**<br>**Prathama**|[Syncore Team]|_IPO + Flowchart_<br>_+ Pseudocode_<br>(Memimpin<br>WS07 & WS08)|
+
+
+
+|**Fase Learning**<br>**Spine**|**Minggu**|**Phase Lead**<br>**(PIC Utama)**|**Nama Anggota**<br>**Tim**|**Tanggung**<br>**Jawab Utama**<br>**Fase**|
+|---|---|---|---|---|
+|**Fase 5: Build**|M9–M12|**Muhammad**<br>**Dhiyauddin Nur**|[Syncore Team]|_Simple CLI_<br>_Prototype_<br>_Development_<br>(Memimpin<br>WS09–WS11)|
+|**Fase 6: Test**|M11–M12|**Muhammad**<br>**Rasikh Zakki**<br>**Aufa**|[Syncore Team]|_Testing + User_<br>_Validation (UAT)_<br>(Memimpin<br>WS12 & WS13)|
+|**Fase 7:**<br>**Communicate**|M14–M15|**Alfin Farrel**<br>**Gennaro**|[Syncore Team]|_Demo + Pitch_<br>_Deck +_<br>_Exhibition Setup_<br>(Memimpin<br>WS14)|
+|**Fase 8: Reflect**|M13–M16|**Ananta Rizqi**<br>**Fadhlurrohman**|[Syncore Team]|_Decision + AI_<br>_Disclosure +_<br>_Final Portfolio_<br>(Memimpin<br>WS15 & WS16)|
+
+
 
 ### Norma Tim yang Disepakati (minimal 5)
 
@@ -73,3 +112,16 @@ g# WS01 — Team Formation & Project Norms
 ---
 
 **Status**: ☑️ Selesai
+### **Lembar Pengesahan Anggota Tim** 
+
+|**No**|**Nama**<br>**Mahasiswa**|**NIM**|**Peran / Rotasi**<br>**Utama**|**Tanda Tangan /**<br>**Persetujuan**|
+|---|---|---|---|---|
+|1|[Ananta Rizqi<br>Fadhlurrohman<br>& Muhammad<br>Dhiyauddin Nur]|[2600016011 &<br>2600016008]|Phase Lead 1<br>(Discover) &<br>Phase Lead 5<br>(Build)|[ Disetujui ]|
+|2|[Muhammad<br>Rasikh Zakki<br>Aufa]|[2600016028]|Phase Lead 2<br>(Frame) &<br>Phase Lead 6<br>(Test)|[ Disetujui ]|
+|3|[Satria Ariya<br>Prathama dan<br>Alfin Farrel<br>Gennaro]|[2600016023 &<br>2600016046]|Phase Lead 3<br>(Define) &<br>Phase Lead 7<br>(Communicate)|[ Disetujui ]|
+|4|[Satria Ariya<br>Prathama &<br>Ananta Rizqi<br>Fadhlurrohman]|[2600016023 &<br>2600016011]|Phase Lead 4<br>(Design) &<br>Phase Lead 8<br>(Reflect)|[ Disetujui ]|
+
+
+
+**Tanggal Pengesahan** : [06/10/2026] **Dosen Pengampu / Coach** : [Imam Azhari, S.Si., M.Cs.] 
+
