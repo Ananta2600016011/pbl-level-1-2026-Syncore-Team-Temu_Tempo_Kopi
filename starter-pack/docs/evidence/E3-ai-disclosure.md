@@ -26,7 +26,7 @@
 
 | Artefak | Yang Dicek Ulang Manual | Cara Verifikasi |
 |---|---|---|
-| **D1** (didukung WS03 & WS04) | 1. Kesesuaian angka kuantitatif (durasi rekap 1 jam, waktu tunggu 10–15 menit, rasio 3:2, transaksi terlewat 1–2 kali).<br>2. Konfirmasi bahwa pencatatan prive dan grafik merupakan hasil identifikasi masalah riil di lapangan, bukan rekayasa AI. | Mencocokkan langsung setiap butir temuan audit ke rekaman audio `Observasi 1` & `Observasi 2` di folder `starter-pack/assets/`, serta merencanakan validasi konfirmasi langsung (*sign-off*) dengan Mas Joy pada 26 Oktober 2026. |
+| **D1** (didukung WS03 & WS04) | 1. Kesesuaian angka kuantitatif (durasi rekap 1 jam, waktu tunggu 10–15 menit, rasio 3:2, transaksi terlewat 1–2 kali).<br>2. Konfirmasi bahwa pencatatan prive dan grafik merupakan hasil identifikasi masalah riil di lapangan, bukan rekayasa AI. | Mencocokkan langsung setiap butir temuan audit ke rekaman audio `Observasi 1` & `Observasi 2` di folder `starter-pack/assets/`, serta merencanakan validasi konfirmasi langsung dengan Mas Joy pada 26 Oktober 2026. |
 | **D2** | *[Akan diverifikasi saat fase desain: logika flowchart, IPO, dan batasan sistem]* | *[Pemeriksaan manual struktur logika program dan kebutuhan pengguna]* |
 | **D3** | *[Akan diverifikasi saat fase build: logika sintaks, algoritma, dan eksekusi program]* | *[Uji coba running kode di mesin lokal dengan test case nyata]* |
 | **D4** | *[Akan diverifikasi saat fase penutupan: kesesuaian portofolio, refleksi, dan bukti pendukung]* | *[Pemeriksaan manual seluruh berkas artefak dan rekam jejak kontribusi]* |
