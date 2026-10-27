@@ -52,25 +52,20 @@ Mata Kuliah: **Konsep Sistem Informasi (KSI)** Kerangka Kerja: **Project-Based L
 
 ### **2. Alokasi Kepemimpinan Bergilir (Rotating Phase Lead)** 
 
-|**Fase Learning**<br>**Spine**|**Minggu**|**Phase Lead**<br>**(PIC Utama)**|**Nama Anggota**<br>**Tim**|**Tanggung**<br>**Jawab Utama**<br>**Fase**|
+| **Fase Learning Spine** | **Minggu** | **Phase Lead (PIC Utama)** | **Nama Anggota Tim** | **Tanggung Jawab Utama Fase** |
 |---|---|---|---|---|
-|**Fase 1:**<br>**Discover**|M1|**Ananta Rizqi**<br>**Fadhlurrohman**|[Syncore Team]|_Observe +_<br>_Interview Setup_<br>(Memimpin<br>WS01 & WS02)|
-|**Fase 2: Frame**|M2|**Muhammad**<br>**Rasikh Zakki**<br>**Aufa**|[Syncore Team]|_Evidence +_<br>_Insight +_<br>_Problem Scope_<br>(Memimpin<br>WS03 & WS04)|
-|**Fase 3: Define**|M3–M4|**Satria Ariya**<br>**Prathama**|[Syncore Team]|_User_<br>_Requirement +_<br>_Success Metrics_<br>(Memimpin<br>WS05 & WS06)|
-|**Fase 4: Design**|M5–M7|**Satria Ariya**<br>**Prathama**|[Syncore Team]|_IPO + Flowchart_<br>_+ Pseudocode_<br>(Memimpin<br>WS07 & WS08)|
+| **Fase 1: Discover** | M1 | Mahasiswa A | **Ananta Rizqi Fadhlurrohman** | _Observe + Interview Setup_ (Memimpin WS01 & WS02) |
+| **Fase 2: Frame** | M2 | Mahasiswa B | **Muhammad Rasikh Zakki Aufa** | _Evidence + Insight + Problem Scope_ (Memimpin WS03 & WS04) |
+| **Fase 3: Define** | M3–M4 | Mahasiswa C | **Satria Ariya Prathama** | _User Requirement + Success Metrics_ (Memimpin WS05 & WS06) |
+| **Fase 4: Design** | M5–M7 | Mahasiswa C | **Satria Ariya Prathama** | _IPO + Flowchart + Pseudocode_ (Memimpin WS07 & WS08) |
+| **Fase 5: Build** | M9–M12 | Mahasiswa D | **Muhammad Dhiyauddin Nur** | _Simple CLI Prototype Development_ (Memimpin WS09–WS11) |
+| **Fase 6: Test** | M11–M12 | Mahasiswa B | **Muhammad Rasikh Zakki Aufa** | _Testing + User Validation (UAT)_ (Memimpin WS12 & WS13) |
+| **Fase 7: Communicate** | M14–M15 | Mahasiswa E | **Alfin Farrel Gennaro** | _Demo + Pitch Deck + Exhibition Setup_ (Memimpin WS14) |
+| **Fase 8: Reflect** | M13–M16 | Mahasiswa A | **Ananta Rizqi Fadhlurrohman** | _Decision + AI Disclosure + Final Portfolio_ (Memimpin WS15 & WS16) |
 
 
 
-|**Fase Learning**<br>**Spine**|**Minggu**|**Phase Lead**<br>**(PIC Utama)**|**Nama Anggota**<br>**Tim**|**Tanggung**<br>**Jawab Utama**<br>**Fase**|
-|---|---|---|---|---|
-|**Fase 5: Build**|M9–M12|**Muhammad**<br>**Dhiyauddin Nur**|[Syncore Team]|_Simple CLI_<br>_Prototype_<br>_Development_<br>(Memimpin<br>WS09–WS11)|
-|**Fase 6: Test**|M11–M12|**Muhammad**<br>**Rasikh Zakki**<br>**Aufa**|[Syncore Team]|_Testing + User_<br>_Validation (UAT)_<br>(Memimpin<br>WS12 & WS13)|
-|**Fase 7:**<br>**Communicate**|M14–M15|**Alfin Farrel**<br>**Gennaro**|[Syncore Team]|_Demo + Pitch_<br>_Deck +_<br>_Exhibition Setup_<br>(Memimpin<br>WS14)|
-|**Fase 8: Reflect**|M13–M16|**Ananta Rizqi**<br>**Fadhlurrohman**|[Syncore Team]|_Decision + AI_<br>_Disclosure +_<br>_Final Portfolio_<br>(Memimpin<br>WS15 & WS16)|
-
-
-
-### Norma Tim yang Disepakati (minimal 5)
+### **3. Norma dan Aturan Main Kelompok (Minimal 5 Norma)**
 
 1. Setiap informasi, perkembangan tugas, maupun data hasil wawancara/observasi wajib dibagikan (shared) melalui grup WhatsApp kelompok untuk mencegah miskomunikasi.
 2. Setiap anggota juga wajib merespon dan aktif dalam diskusi maupun musyawarah yang dilakukan secara tatap muka maupun online di grup Whatsapp.
@@ -83,7 +78,7 @@ Mata Kuliah: **Konsep Sistem Informasi (KSI)** Kerangka Kerja: **Project-Based L
 9. Wajib mencatat dan merekam atau menulis setiap instruksi (prompt) AI yang digunakan pada lembar TPL-07 secara jujur dan transparan oleh semua anggota.
 10. Tidak diperbolehkan mengumpulkan atau mengklaim hasil AI secara mentah-mentah (copy-paste) tanpa adanya pemahaman, pengertian mendasar, serta penyesuaian dengan konteks objek studi atau proyek yang sedang diobservasi (Temu Tempo Kopi).
 
-### Cara Menyelesaikan Konflik
+### **4. Mekanisme Resolusi Konflik Internal**
 
 1. Setiap anggota harus menyampaikan semua problem dan masalah yang dialami dan yang ada dalam pikiran secara langsung tanpa menyembunyikan dari anggota kelompok lain agar tidak ada yang berbicara dari belakang.
 2. Diskusi dan penyelesaian masalah dilakukan secara langsung dan tatap muka dilakukan dengan kepala dingin,kekeluargaan,dan selalu mengedepankan untuk mencari jalan tengah dan solusi yang terbaik buat kedua belah pihak.
@@ -114,12 +109,13 @@ Mata Kuliah: **Konsep Sistem Informasi (KSI)** Kerangka Kerja: **Project-Based L
 **Status**: ☑️ Selesai
 ### **Lembar Pengesahan Anggota Tim** 
 
-|**No**|**Nama**<br>**Mahasiswa**|**NIM**|**Peran / Rotasi**<br>**Utama**|**Tanda Tangan /**<br>**Persetujuan**|
-|---|---|---|---|---|
-|1|[Ananta Rizqi<br>Fadhlurrohman<br>& Muhammad<br>Dhiyauddin Nur]|[2600016011 &<br>2600016008]|Phase Lead 1<br>(Discover) &<br>Phase Lead 5<br>(Build)|[ Disetujui ]|
-|2|[Muhammad<br>Rasikh Zakki<br>Aufa]|[2600016028]|Phase Lead 2<br>(Frame) &<br>Phase Lead 6<br>(Test)|[ Disetujui ]|
-|3|[Satria Ariya<br>Prathama dan<br>Alfin Farrel<br>Gennaro]|[2600016023 &<br>2600016046]|Phase Lead 3<br>(Define) &<br>Phase Lead 7<br>(Communicate)|[ Disetujui ]|
-|4|[Satria Ariya<br>Prathama &<br>Ananta Rizqi<br>Fadhlurrohman]|[2600016023 &<br>2600016011]|Phase Lead 4<br>(Design) &<br>Phase Lead 8<br>(Reflect)|[ Disetujui ]|
+| **No** | **Nama Mahasiswa** | **NIM** | **Peran / Rotasi Utama** | **Tanda Tangan / Persetujuan** |
+|:---:|---|:---:|---|:---:|
+| 1 | Ananta Rizqi Fadhlurrohman | 2600016011 | Phase Lead 1 (Discover) & Phase Lead 8 (Reflect) | [ Disetujui ] |
+| 2 | Muhammad Rasikh Zakki Aufa | 2600016028 | Phase Lead 2 (Frame) & Phase Lead 6 (Test) | [ Disetujui ] |
+| 3 | Satria Ariya Prathama | 2600016023 | Phase Lead 3 (Define) & Phase Lead 4 (Design) | [ Disetujui ] |
+| 4 | Muhammad Dhiyauddin Nur | 2600016008 | Phase Lead 5 (Build) | [ Disetujui ] |
+| 5 | Alfin Farrel Gennaro | 2600016046 | Phase Lead 7 (Communicate) | [ Disetujui ] |
 
 
 
