@@ -95,7 +95,7 @@ Disusun oleh Tim Kelompok: Syncore Team
 
 Tanggal Observasi: 12 Oktober 2026
 1. Muhammad Rasikh Zakki Aufa: ____________________ ( Tanda Tangan )
-2. Ananta Rizqi Fadhlurrohman: ____________________ ( [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_ananta.png) )
+2. Ananta Rizqi Fadhlurrohman: [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_ananta.png)
 3. Muhammad Dhiyauddin Nur   : ____________________ ( Tanda Tangan )
 4. Satria Ariya Prathama     : ____________________ ( Tanda Tangan )
 5. Alfin Farrel Gennaro      : ____________________ ( Tanda Tangan )
@@ -123,8 +123,8 @@ Seluruh bukti rekaman suara wawancara, transkrip percakapan, dan dokumentasi fot
 | 6 | **Dokumen Transkrip Teks (Observasi 2)** | [Lihat Berkas](../assets/transkrip_wawancara_observasi_2.txt) | [Buka di Google Docs](https://docs.google.com/document/d/1aF0QXUZq10r_URyVZwUrwOMIKlWwJ0M47zIgNa4JjhE/edit?usp=sharing) |
 | 7 | **Foto Dokumentasi Wawancara (Observasi 1)** | [Lihat Berkas](../assets/foto_observasi_1.jpg) | [Buka di Google Drive](https://drive.google.com/file/d/1RXgl349-XDt9vuDVWTWb1XnLIJxCprDp/view?usp=sharing) |
 | 8 | **Foto Dokumentasi Wawancara (Observasi 2)** | [Lihat Berkas](../assets/Foto_observasi_2.jpg) | [Buka di Google Drive](https://drive.google.com/file/d/1m3auRexxq_3wlrPm-bLfoFK4N0lBVMDd/view?usp=sharing) |
-| 9 | **Rekaman Suara Validasi Mas Joy (Prive & Grafik)** | [Lihat Berkas](<../assets/Rekaman suara validasi grafik dan prive.mp4>) | *Tersedia di Berkas Lokal* |
-| 10 | **Dokumen Transkrip Validasi Mas Joy (Prive & Grafik)** | [Lihat Berkas](<../assets/Transkrip validasi prive dan grafik.txt>) | *Tersedia di Berkas Lokal* |
+| 9 | **Rekaman Suara Validasi Mas Joy (Prive & Grafik)** | [Lihat Berkas](<../assets/Rekaman suara validasi grafik dan prive.mp4>) | [Buka di Google Drive](https://drive.google.com/file/d/1EtyLkMyrJx7gxuljSv70Ki6WO7jsRtPt/view?usp=sharing) |
+| 10 | **Dokumen Transkrip Validasi Mas Joy (Prive & Grafik)** | [Lihat Berkas](<../assets/Transkrip validasi prive dan grafik.txt>) | [Buka di Google Drive](https://drive.google.com/file/d/1X8sAKqvdNXb-uqXyHBS4eJhXRne3MDXJ/view?usp=sharing) |
 | 11 | **Foto Diskusi Tim & Mentoring Dosen** | [Lihat Berkas](../assets/foto_diskusi_WS_dan_data_validasi.jpg) | *Tersedia di Berkas Lokal* |
 
 ---
