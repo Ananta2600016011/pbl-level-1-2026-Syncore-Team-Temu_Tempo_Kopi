@@ -111,24 +111,23 @@ Catatan Dosen: __________________________________________________
 
 ## **6. Bukti Lapangan**
 
-Seluruh bukti rekaman suara wawancara, transkrip percakapan, dan dokumentasi foto observasi disimpan pada Google Drive serta diarsipkan langsung pada direktori repository: [`starter-pack/assets/`](../assets/):
+Seluruh bukti rekaman suara wawancara, transkrip percakapan, dan dokumentasi foto observasi disimpan pada Google Drive serta diarsipkan langsung pada direktori repository: [starter-pack/assets/](https://github.com/Ananta2600016011/pbl-level-1-2026-Syncore-Team-Temu_Tempo_Kopi/blob/main/starter-pack/assets):
 
-| No | Jenis Bukti | Berkas Lokal (Assets) | Cadangan Cloud (Google Drive) |
-|:---:|---|---|---|
-| 1 | **Rekaman Audio Wawancara 1 (Observasi 1)** | [Lihat Berkas](<../assets/rekaman_wawancara_mitra_part1_(Observasi 1).mp4>) | [Buka di Google Drive](https://drive.google.com/file/d/1eaVmzPrsjU19faEFwceve3qSUR3YTXo1/view?usp=sharing) |
-| 2 | **Rekaman Audio Wawancara 2 (Observasi 1)** | [Lihat Berkas](<../assets/rekaman_wawancara_mitra_part2_(Observasi 1).mp4>) | [Buka di Google Drive](https://drive.google.com/file/d/1XvwmxtPOT_-OOrxMhJ0WaGo_oRyiJaWr/view?usp=sharing) |
-| 3 | **Dokumen Transkrip Teks 1 (Observasi 1)** | [Lihat Berkas](<../assets/transkrip_wawancara_part1_(Observasi 1).txt>) | [Buka di Google Drive](https://drive.google.com/file/d/1E62H3o0G60LZ-HuSheDz64x4lwIgM16n/view?usp=sharing) |
-| 4 | **Dokumen Transkrip Teks 2 (Observasi 1)** | [Lihat Berkas](<../assets/transkrip_wawancara_part2_(Observasi 1).txt>) | [Buka di Google Drive](https://drive.google.com/file/d/12XaS_2BvEyYjdJfFc5dbIM51yC0dd8pj/view?usp=sharing) |
-| 5 | **Rekaman Audio Observasi Lanjutan (Observasi 2)** | [Lihat Berkas](../assets/rekaman_wawancara_mitra_observasi_2.mp4) | [Buka di Google Drive](https://drive.google.com/file/d/1Jh6ZoV8gVPJlU8AdB7TnOEsU_J8FPGSu/view?usp=sharing) |
-| 6 | **Dokumen Transkrip Teks (Observasi 2)** | [Lihat Berkas](../assets/transkrip_wawancara_observasi_2.txt) | [Buka di Google Docs](https://docs.google.com/document/d/1aF0QXUZq10r_URyVZwUrwOMIKlWwJ0M47zIgNa4JjhE/edit?usp=sharing) |
-| 7 | **Foto Dokumentasi Wawancara (Observasi 1)** | [Lihat Berkas](../assets/foto_observasi_1.jpg) | [Buka di Google Drive](https://drive.google.com/file/d/1RXgl349-XDt9vuDVWTWb1XnLIJxCprDp/view?usp=sharing) |
-| 8 | **Foto Dokumentasi Wawancara (Observasi 2)** | [Lihat Berkas](../assets/Foto_observasi_2.jpg) | [Buka di Google Drive](https://drive.google.com/file/d/1m3auRexxq_3wlrPm-bLfoFK4N0lBVMDd/view?usp=sharing) |
-| 9 | **Rekaman Suara Validasi Mas Joy (Prive & Grafik)** | [Lihat Berkas](<../assets/Rekaman suara validasi grafik dan prive.mp4>) | [Buka di Google Drive](https://drive.google.com/file/d/1EtyLkMyrJx7gxuljSv70Ki6WO7jsRtPt/view?usp=sharing) |
-| 10 | **Dokumen Transkrip Validasi Mas Joy (Prive & Grafik)** | [Lihat Berkas](<../assets/Transkrip validasi prive dan grafik.txt>) | [Buka di Google Drive](https://drive.google.com/file/d/1X8sAKqvdNXb-uqXyHBS4eJhXRne3MDXJ/view?usp=sharing) |
-| 11 | **Foto Diskusi Tim & Mentoring Dosen** | [Lihat Berkas](../assets/foto_diskusi_WS_dan_data_validasi.jpg) | *Tersedia di Berkas Lokal* |
+| No | Jenis Bukti | Tautan |
+|:---:|---|---|
+| 1 | **Rekaman Audio Wawancara 1 (Observasi 1)** | [Buka di Google Drive](https://drive.google.com/file/d/1eaVmzPrsjU19faEFwceve3qSUR3YTXo1/view?usp=sharing) |
+| 2 | **Rekaman Audio Wawancara 2 (Observasi 1)** | [Buka di Google Drive](https://drive.google.com/file/d/1XvwmxtPOT_-OOrxMhJ0WaGo_oRyiJaWr/view?usp=sharing) |
+| 3 | **Dokumen Transkrip Teks 1 (Observasi 1)** | [Buka di Google Drive](https://drive.google.com/file/d/1E62H3o0G60LZ-HuSheDz64x4lwIgM16n/view?usp=sharing) |
+| 4 | **Dokumen Transkrip Teks 2 (Observasi 1)** | [Buka di Google Drive](https://drive.google.com/file/d/12XaS_2BvEyYjdJfFc5dbIM51yC0dd8pj/view?usp=sharing) |
+| 5 | **Rekaman Audio Observasi Lanjutan (Observasi 2)** | [Buka di Google Drive](https://drive.google.com/file/d/1Jh6ZoV8gVPJlU8AdB7TnOEsU_J8FPGSu/view?usp=sharing) |
+| 6 | **Dokumen Transkrip Teks (Observasi 2)** | [Buka di Google Docs](https://docs.google.com/document/d/1aF0QXUZq10r_URyVZwUrwOMIKlWwJ0M47zIgNa4JjhE/edit?usp=sharing) |
+| 7 | **Foto Dokumentasi Wawancara (Observasi 1)** | [Buka di Google Drive](https://drive.google.com/file/d/1RXgl349-XDt9vuDVWTWb1XnLIJxCprDp/view?usp=sharing) |
+| 8 | **Foto Dokumentasi Wawancara (Observasi 2)** | [Buka di Google Drive](https://drive.google.com/file/d/1m3auRexxq_3wlrPm-bLfoFK4N0lBVMDd/view?usp=sharing) |
+| 9 | **Rekaman Suara Validasi Mas Joy (Prive & Grafik)** | [Buka di Google Drive](https://drive.google.com/file/d/1EtyLkMyrJx7gxuljSv70Ki6WO7jsRtPt/view?usp=sharing) |
+| 10 | **Dokumen Transkrip Validasi Mas Joy (Prive & Grafik)** | [Buka di Google Drive](https://drive.google.com/file/d/1X8sAKqvdNXb-uqXyHBS4eJhXRne3MDXJ/view?usp=sharing) |
+| 11 | **Foto Diskusi Tim & Mentoring Dosen** | [Buka di Google Drive](https://drive.google.com/file/d/19rnISSlrCiLKP37QYFv9CBwdRUbRdj2H/view?usp=sharing) |
 
 ---
-
 ### **Hasil Jawaban 10 Pertanyaan Wawancara (Berdasarkan Fakta Lapangan)**
 
 Tabel di bawah merupakan konsolidasi jawaban narasumber (Mas Joy) atas 10 pertanyaan wawancara terarah:
