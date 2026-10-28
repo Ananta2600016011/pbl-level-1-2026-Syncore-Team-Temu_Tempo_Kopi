@@ -1,4 +1,4 @@
-# **WORKSHEET BOOK: WS01 — Team Formation & Project Norms** 
+# **WORKSHEET BOOK: WS01 - Team Formation & Project Norms** 
 
 Mata Kuliah: **Konsep Sistem Informasi (KSI)** Kerangka Kerja: **Project-Based Learning (PBL) Level 1** Learning Moment: **Discover (Minggu 1)** 
 
@@ -10,11 +10,11 @@ Mata Kuliah: **Konsep Sistem Informasi (KSI)** Kerangka Kerja: **Project-Based L
 
 - **Learning Moment** : Discover 
 
-- **Purpose** : Membentuk tim 4–5 orang, menetapkan _phase lead_ untuk 8 fase proyek, dan menyepakati norma kolaborasi tim. 
+- **Purpose** : Membentuk tim 4-5 orang, menetapkan _phase lead_ untuk 8 fase proyek, dan menyepakati norma kolaborasi tim. 
 
 - **Related Learning Outcome** : CPMK-14; Sub-CPMK S-14.1 (I); SFIA CSMG L2 (Komunikasi Tim). 
 
-- **Related Deliverable** : Deliverable D4 (bagian kolaborasi / meeting log — _supporting evidence_ ). 
+- **Related Deliverable** : Deliverable D4 (bagian kolaborasi / meeting log - _supporting evidence_ ). 
 
 - **Related Module** : Modul M01 ( _Fondasi SI, Proses Bisnis & Value of Information_ ) & Modul M09 ( _Komunikasi Tim_ ). 
 
@@ -56,12 +56,12 @@ Mata Kuliah: **Konsep Sistem Informasi (KSI)** Kerangka Kerja: **Project-Based L
 |---|---|---|---|---|
 | **Fase 1: Discover** | M1 | Mahasiswa A | **Ananta Rizqi Fadhlurrohman** | _Observe + Interview Setup_ (Memimpin WS01 & WS02) |
 | **Fase 2: Frame** | M2 | Mahasiswa B | **Muhammad Rasikh Zakki Aufa** | _Evidence + Insight + Problem Scope_ (Memimpin WS03 & WS04) |
-| **Fase 3: Define** | M3–M4 | Mahasiswa C | **Satria Ariya Prathama** | _User Requirement + Success Metrics_ (Memimpin WS05 & WS06) |
-| **Fase 4: Design** | M5–M7 | Mahasiswa C | **Satria Ariya Prathama** | _IPO + Flowchart + Pseudocode_ (Memimpin WS07 & WS08) |
-| **Fase 5: Build** | M9–M12 | Mahasiswa D | **Muhammad Dhiyauddin Nur** | _Simple CLI Prototype Development_ (Memimpin WS09–WS11) |
-| **Fase 6: Test** | M11–M12 | Mahasiswa B | **Muhammad Rasikh Zakki Aufa** | _Testing + User Validation (UAT)_ (Memimpin WS12 & WS13) |
-| **Fase 7: Communicate** | M14–M15 | Mahasiswa E | **Alfin Farrel Gennaro** | _Demo + Pitch Deck + Exhibition Setup_ (Memimpin WS14) |
-| **Fase 8: Reflect** | M13–M16 | Mahasiswa A | **Ananta Rizqi Fadhlurrohman** | _Decision + AI Disclosure + Final Portfolio_ (Memimpin WS15 & WS16) |
+| **Fase 3: Define** | M3-M4 | Mahasiswa C | **Satria Ariya Prathama** | _User Requirement + Success Metrics_ (Memimpin WS05 & WS06) |
+| **Fase 4: Design** | M5-M7 | Mahasiswa C | **Satria Ariya Prathama** | _IPO + Flowchart + Pseudocode_ (Memimpin WS07 & WS08) |
+| **Fase 5: Build** | M9-M12 | Mahasiswa D | **Muhammad Dhiyauddin Nur** | _Simple CLI Prototype Development_ (Memimpin WS09-WS11) |
+| **Fase 6: Test** | M11-M12 | Mahasiswa B | **Muhammad Rasikh Zakki Aufa** | _Testing + User Validation (UAT)_ (Memimpin WS12 & WS13) |
+| **Fase 7: Communicate** | M14-M15 | Mahasiswa E | **Alfin Farrel Gennaro** | _Demo + Pitch Deck + Exhibition Setup_ (Memimpin WS14) |
+| **Fase 8: Reflect** | M13-M16 | Mahasiswa A | **Ananta Rizqi Fadhlurrohman** | _Decision + AI Disclosure + Final Portfolio_ (Memimpin WS15 & WS16) |
 
 
 
@@ -98,7 +98,7 @@ Mata Kuliah: **Konsep Sistem Informasi (KSI)** Kerangka Kerja: **Project-Based L
 
 ## Checklist
 
-- [x] Tim terbentuk 3–4 orang
+- [x] Tim terbentuk 3-4 orang
 - [x] Objek studi terpilih dari daftar aman
 - [x] Jadwal rotating phase lead disepakati (semua memimpin minimal satu fase)
 - [x] Norma tim disepakati dan disetujui semua anggota
@@ -120,4 +120,3 @@ Mata Kuliah: **Konsep Sistem Informasi (KSI)** Kerangka Kerja: **Project-Based L
 
 
 **Tanggal Pengesahan** : [06/10/2026] **Dosen Pengampu / Coach** : [Imam Azhari, S.Si., M.Cs.] 
-

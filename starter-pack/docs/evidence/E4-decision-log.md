@@ -1,7 +1,7 @@
-# E4 — Decision Log
+# E4 - Decision Log
 
-**Project**: Digital Problem Framing Mini Project — Temu Tempo Kopi  
-**Periode**: Minggu 1–16 | **Template**: TPL-08  
+**Project**: Digital Problem Framing Mini Project - Temu Tempo Kopi  
+**Periode**: Minggu 1-16 | **Template**: TPL-08  
 **Worksheet terkait**: WS01, WS04, WS07, WS15  
 
 > **Catatan**: Minimal **5 entri** untuk keputusan penting tim (pemilihan objek, batasan sistem, desain solusi, revisi, hingga penggunaan AI). Diisi berkala sepanjang semester.
