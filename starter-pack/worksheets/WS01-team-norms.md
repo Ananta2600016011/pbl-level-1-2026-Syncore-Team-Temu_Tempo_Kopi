@@ -112,7 +112,7 @@ Mata Kuliah: **Konsep Sistem Informasi (KSI)** Kerangka Kerja: **Project-Based L
 | **No** | **Nama Mahasiswa** | **NIM** | **Peran / Rotasi Utama** | **Tanda Tangan / Persetujuan** |
 |:---:|---|:---:|---|:---:|
 | 1 | Ananta Rizqi Fadhlurrohman | 2600016011 | Phase Lead 1 (Discover) & Phase Lead 8 (Reflect) | [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_ananta.jpg) |
-| 2 | Muhammad Rasikh Zakki Aufa | 2600016028 | Phase Lead 2 (Frame) & Phase Lead 6 (Test) | [ Disetujui ] |
+| 2 | Muhammad Rasikh Zakki Aufa | 2600016028 | Phase Lead 2 (Frame) & Phase Lead 6 (Test) | [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_zakki.jpg) |
 | 3 | Satria Ariya Prathama | 2600016023 | Phase Lead 3 (Define) & Phase Lead 4 (Design) | [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg) |
 | 4 | Muhammad Dhiyauddin Nur | 2600016008 | Phase Lead 5 (Build) | [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_yaud.jpg) |
 | 5 | Alfin Farrel Gennaro | 2600016046 | Phase Lead 7 (Communicate) | [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_alfin.jpg) |
