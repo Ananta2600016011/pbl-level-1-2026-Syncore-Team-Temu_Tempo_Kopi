@@ -94,11 +94,11 @@ Gunakan lembar ini saat berada di lokasi mitra untuk mencatat secara kronologis 
 Disusun oleh Tim Kelompok: Syncore Team
 
 Tanggal Observasi: 12 Oktober 2026
-1. Muhammad Rasikh Zakki Aufa: ____________________ ( Tanda Tangan )
+1. Muhammad Rasikh Zakki Aufa: [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_zakki.jpg)
 2. Ananta Rizqi Fadhlurrohman: [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_ananta.jpg)
-3. Muhammad Dhiyauddin Nur   : ____________________ ( Tanda Tangan )
+3. Muhammad Dhiyauddin Nur   : [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_yaud.jpg)
 4. Satria Ariya Prathama     : [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg)
-5. Alfin Farrel Gennaro      : ____________________ ( Tanda Tangan )
+5. Alfin Farrel Gennaro      : [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_alfin.jpg)
 
 *(Seluruh berkas fisik/digital tanda tangan anggota tim diarahkan dan diarsipkan pada folder: [`starter-pack/assets/tanda_tangan_team/`](../assets/tanda_tangan_team/))*
 
