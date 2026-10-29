@@ -95,9 +95,11 @@ Tentukan target kuantitatif perbaikan yang ingin dicapai melalui solusi sistem i
 Disusun oleh Phase Lead 2 (Frame): Muhammad Rasikh Zakki Aufa - 2600016028
 
 ---
+
 Tanggal Penyusunan: 14 Oktober 2026
 Tanda Tangan Phase Lead 2: [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_zakki.jpg)
 Diverifikasi oleh Dosen Pengampu / Coach:
 Tanggal: [ Tanggal ] | Status Checkpoint: [ APPROVED / REVISION NEEDED ]
 Catatan Dosen: __________________________________________________
+
 ---
