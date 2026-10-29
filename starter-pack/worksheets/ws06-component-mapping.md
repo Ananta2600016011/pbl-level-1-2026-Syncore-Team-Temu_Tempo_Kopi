@@ -42,28 +42,32 @@ Business Process Improvement (BPI) mengukur keberhasilan perbaikan proses bisnis
 ### **4. Workspace B: Pemetaan Arsitektur 5 Pilar SI Solusi Awal**
 
 ```text
-┌────────────────────────────────────────────┐
-│                      PETA 5 PILAR SISTEM INFORMASI                      │
-├────────────────────────────────────────────┤
-│ 1. PEOPLE RESOURCES (Pengguna & Spesialis)                              │
-│    • Pengguna Akhir: Mas Joy (Pemilik & Pengelola Tunggal Temu Tempo Kopi) │
-│    • Pengembang SI: Tim Syncore (Satria, Ananta, Zakki, Dhiyauddin, Alfin) │
-├────────────────────────────────────────────┤
-│ 2. HARDWARE RESOURCES (Perangkat Mesin & Media)                         │
-│    • Perangkat Fisik Input: Smartphone Android (kasir harian) & Laptop/PC │
-│    • Perangkat Fisik Output: Layar Monitor Laptop / Layar Smartphone Pemilik │
-├────────────────────────────────────────────┤
-│ 3. SOFTWARE RESOURCES (Aplikasi & Prosedur Operational)                 │
-│    • Aplikasi Sistem: Online Spreadsheet (Google Sheets) & Prototipe Python CLI sederhana untuk pengolahan file transaksi │
-│    • Prosedur SOP: Prosedur ekspor berkas kasir, pencatatan prive, dan pemantauan grafik evaluasi penjualan │
-├────────────────────────────────────────────┤
-│ 4. DATA RESOURCES (Struktur Data & Basis Data)                          │
-│    • Data Transaksi: Berkas ekspor transaksi kasir (.csv / spreadsheet) │
-│    • Data Finansial: Log pos penarikan prive & riwayat margin mingguan │
-├────────────────────────────────────────────┤
-│ 5. NETWORK RESOURCES (Jaringan Communication & Media)                   │
-│    • Konektivitas: Jaringan Internet / Wi-Fi Kedai (untuk sinkronisasi Cloud Spreadsheet secara online agar bisa diakses fleksibel lewat HP/laptop Mas Joy) │
-└────────────────────────────────────────────┘
++-----------------------------------------------------------------------------+
+|                        PETA 5 PILAR SISTEM INFORMASI                        |
++-----------------------------------------------------------------------------+
+| 1. PEOPLE RESOURCES (Pengguna & Spesialis)                                  |
+|    - Pengguna Akhir: Mas Joy (Pemilik & Pengelola Tunggal Temu Tempo Kopi)  |
+|    - Pengembang SI : Tim Syncore (Satria, Ananta, Zakki, Dhiyauddin, Alfin) |
++-----------------------------------------------------------------------------+
+| 2. HARDWARE RESOURCES (Perangkat Mesin & Media)                             |
+|    - Perangkat Fisik Input : Smartphone Android (kasir harian) & Laptop/PC  |
+|    - Perangkat Fisik Output: Layar Monitor Laptop / Layar Smartphone Pemilik|
++-----------------------------------------------------------------------------+
+| 3. SOFTWARE RESOURCES (Aplikasi & Prosedur Operasional)                     |
+|    - Aplikasi Sistem: Online Spreadsheet (Google Sheets) & Prototipe Python |
+|                       CLI sederhana untuk pengolahan file transaksi         |
+|    - Prosedur SOP   : Prosedur ekspor berkas kasir, pencatatan prive, dan   |
+|                       pemantauan grafik evaluasi penjualan                  |
++-----------------------------------------------------------------------------+
+| 4. DATA RESOURCES (Struktur Data & Basis Data)                              |
+|    - Data Transaksi: Berkas ekspor transaksi kasir (.csv / spreadsheet)     |
+|    - Data Finansial: Log pos penarikan prive & riwayat margin mingguan      |
++-----------------------------------------------------------------------------+
+| 5. NETWORK RESOURCES (Jaringan Komunikasi & Media)                          |
+|    - Konektivitas: Jaringan Internet / Wi-Fi Kedai (sinkronisasi cloud      |
+|                    spreadsheet online agar dapat diakses fleksibel lewat    |
+|                    smartphone maupun laptop Mas Joy)                        |
++-----------------------------------------------------------------------------+
 ```
 
 ---
