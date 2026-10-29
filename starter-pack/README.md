@@ -27,7 +27,7 @@
 
 | Kode | Deliverable | MK Owner | Status | File |
 |---|---|---|---|---|
-| D1 | Problem Brief | Konsep SI | ⬜ Belum | `docs/D1-problem-brief.md` |
+| D1 | Problem Brief | Konsep SI | ☑️ Review Tim (Siap Gate 1) | `docs/D1-problem-brief.md` |
 | D2 | System & Solution Design | Konsep SI (+ Dasar Prog) | ⬜ Belum | `docs/D2-solution-design.md` |
 | D3 | Tested Solution Prototype | Dasar Prog | ⬜ Belum | `docs/D3-prototipe.md` + `src/` |
 | D4 | Reflection & Portfolio | Kom. Profesional & B. Inggris | ⬜ Belum | `docs/D4-portfolio.md` |

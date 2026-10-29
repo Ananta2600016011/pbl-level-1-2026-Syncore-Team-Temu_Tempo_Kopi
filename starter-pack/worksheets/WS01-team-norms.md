@@ -106,7 +106,7 @@ Mata Kuliah: **Konsep Sistem Informasi (KSI)** Kerangka Kerja: **Project-Based L
 
 ---
 
-**Status**: ☑️ Selesai
+**Status**: ☑️ Selesai (Disahkan)
 ### **Lembar Pengesahan Anggota Tim** 
 
 | **No** | **Nama Mahasiswa** | **NIM** | **Peran / Rotasi Utama** | **Tanda Tangan / Persetujuan** |
