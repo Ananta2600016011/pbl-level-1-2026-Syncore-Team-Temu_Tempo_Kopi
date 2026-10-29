@@ -14,7 +14,7 @@
 
 * **Nama Kelompok**:Syncore Team
 * **Objek UMKM Mitra**: Temu Tempo Kopi
-* **Phase Lead 3 (Define)**: Satria Ariya Prathama (Mahasiswa C)
+* **Phase Lead 3 (Define)**: Satria Ariya Prathama (NIM: 2600016023)
 * **Anggota Tim**: Ananta Rizqi Fadhlurrohman, Muhammad Rasikh Zakki Aufa, Muhammad Dhiyauddin Nur, Alfin Farrel Gennaro
 
 ---
@@ -32,10 +32,10 @@ Business Process Improvement (BPI) mengukur keberhasilan perbaikan proses bisnis
 
 | Dimensi Metrik | Parameter Kinerja | Kondisi Baseline (As-Is) | Target Solusi (To-Be) | Metode Pengukuran |
 | --- | --- | --- | --- | --- |
-| Efisiensi (Waktu) | Durasi pelayanan transaksi per pelanggan | ________ detik / menit | ________ detik / menit | Stopwatch sampel 10 transaksi |
-| Efisiensi (Waktu) | Durasi rekapitulasi harian pemilik | ________ jam / malam | ________ menit / malam | Wawancara & uji coba langsung |
-| Efektivitas (Akurasi) | Tingkat selisih pencatatan stok barang | ________ % selisih / bulan | ________ % selisih / bulan | Stock opname bulanan |
-| Efektivitas (Kualitas) | Frekuensi kesalahan hitung nota | ________ kali / minggu | ________ kali / minggu | Audit sampel lembar nota |
+| Efisiensi (Waktu) | Durasi rekapitulasi mingguan pemilik | ± 60 menit (1 jam) setiap hari Minggu saat libur | < 5 menit per minggu (Penghematan waktu > 90%) | Pengujian waktu saat data kasir diimpor ke spreadsheet/sistem |
+| Efektivitas (Akurasi) | Frekuensi transaksi terlewat / salah rekap | 1–2 transaksi per minggu saat kedai ramai | 0 transaksi salah rekap (Akurasi data 100%) | Rekonsiliasi silang jumlah nota kasir vs hasil ringkasan sistem |
+| Efektivitas (Tata Kelola) | Pemisahan kas usaha dengan uang pribadi (Prive) | Belum ada pos pencatatan (uang kas kedai sering terpakai untuk keperluan pribadi) | 100% penarikan dana pribadi tercatat terpisah pada modul prive | Audit berkala saldo fisik kas di laci terhadap catatan buku kas |
+| Efektivitas (Analisis Bisnis) | Kemudahan evaluasi tren penjualan menu | 0 jam / minggu (Excel murni deretan angka mentah tanpa formula grafik) | Grafik visual otomatis (tren omzet mingguan & komparasi penjualan menu) | Uji coba keterbacaan grafik performa kedai bersama pemilik |
 
 ---
 
@@ -46,23 +46,23 @@ Business Process Improvement (BPI) mengukur keberhasilan perbaikan proses bisnis
 │                      PETA 5 PILAR SISTEM INFORMASI                      │
 ├────────────────────────────────────────────┤
 │ 1. PEOPLE RESOURCES (Pengguna & Spesialis)                              │
-│    • Pengguna Akhir: __________________________________________________ │
-│    • Pengelola Data: __________________________________________________ │
+│    • Pengguna Akhir: Mas Joy (Pemilik & Pengelola Tunggal Temu Tempo Kopi) │
+│    • Pengembang SI: Tim Syncore (Satria, Ananta, Zakki, Dhiyauddin, Alfin) │
 ├────────────────────────────────────────────┤
 │ 2. HARDWARE RESOURCES (Perangkat Mesin & Media)                         │
-│    • Perangkat Fisik Input: ___________________________________________ │
-│    • Perangkat Fisik Output: __________________________________________ │
+│    • Perangkat Fisik Input: Smartphone Android (kasir harian) & Laptop/PC │
+│    • Perangkat Fisik Output: Layar Monitor Laptop / Layar Smartphone Pemilik │
 ├────────────────────────────────────────────┤
 │ 3. SOFTWARE RESOURCES (Aplikasi & Prosedur Operational)                 │
-│    • Aplikasi Program: ________________________________________________ │
-│    • Prosedur Pengguna: _______________________________________________ │
+│    • Aplikasi Sistem: Online Spreadsheet (Google Sheets) & Prototipe Python CLI sederhana untuk pengolahan file transaksi │
+│    • Prosedur SOP: Prosedur ekspor berkas kasir, pencatatan prive, dan pemantauan grafik evaluasi penjualan │
 ├────────────────────────────────────────────┤
 │ 4. DATA RESOURCES (Struktur Data & Basis Data)                          │
-│    • Data Transaksi: __________________________________________________ │
-│    • Data Produk/Stok: ________________________________________________ │
+│    • Data Transaksi: Berkas ekspor transaksi kasir (.csv / spreadsheet) │
+│    • Data Finansial: Log pos penarikan prive & riwayat margin mingguan │
 ├────────────────────────────────────────────┤
 │ 5. NETWORK RESOURCES (Jaringan Communication & Media)                   │
-│    • Konektivitas: ____________________________________________________ │
+│    • Konektivitas: Jaringan Internet / Wi-Fi Kedai (untuk sinkronisasi Cloud Spreadsheet secara online agar bisa diakses fleksibel lewat HP/laptop Mas Joy) │
 └────────────────────────────────────────────┘
 ```
 
@@ -72,8 +72,8 @@ Business Process Improvement (BPI) mengukur keberhasilan perbaikan proses bisnis
 
 Dengan ini, pemilik / manajer UMKM mitra menyatakan setuju atas rumusan kebutuhan fungsional, target metrik keberhasilan, dan batas cakupan sistem yang dirancang oleh tim mahasiswa.
 
-* **Nama UMKM Mitra**: ________________________________________
-* **Nama Pemilik / Pengelola**: ________________________________________
+* **Nama UMKM Mitra**: Temu Tempo Kopi
+* **Nama Pemilik / Pengelola**: Mas Joy
 * **Tanggal Persetujuan**: ____________________
 
 **Tanda Tangan Persetujuan Mitra:**
@@ -88,13 +88,13 @@ Dengan ini, pemilik / manajer UMKM mitra menyatakan setuju atas rumusan kebutuha
 ### **6. Verifikasi Integritas AI (TPL-07) & Pengesahan**
 
 **Penggunaan AI Co-pilot:
-Apakah tim menggunakan AI untuk membantu merumuskan metrik BPI / diagram 5 pilar SI? [ ] Ya  [ ] Tidak
+Apakah tim menggunakan AI untuk membantu merumuskan metrik BPI / diagram 5 pilar SI? [x] Ya  [ ] Tidak
 (Jika Ya, wajib melampirkan formulir TPL-07: AI Usage Disclosure & Verification Note).**
 
 Tanda Tangan Tim & Pengesahan Dosen:
 
 ```text
-Phase Lead 3: _______________________ (Tanggal: __________)
+Phase Lead 3: Satria Ariya Prathama - [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg) (Tanggal: 29 Oktober 2026)
 ```
 ```text
 Dosen Coach: _______________________ (Tanggal: __________)  [ ] Approved
