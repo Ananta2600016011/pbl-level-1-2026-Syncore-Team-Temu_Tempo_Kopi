@@ -97,7 +97,7 @@ Tanggal Observasi: 12 Oktober 2026
 1. Muhammad Rasikh Zakki Aufa: ____________________ ( Tanda Tangan )
 2. Ananta Rizqi Fadhlurrohman: [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_ananta.jpg)
 3. Muhammad Dhiyauddin Nur   : ____________________ ( Tanda Tangan )
-4. Satria Ariya Prathama     : ____________________ ( Tanda Tangan )
+4. Satria Ariya Prathama     : [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg)
 5. Alfin Farrel Gennaro      : ____________________ ( Tanda Tangan )
 
 *(Seluruh berkas fisik/digital tanda tangan anggota tim diarahkan dan diarsipkan pada folder: [`starter-pack/assets/tanda_tangan_team/`](../assets/tanda_tangan_team/))*
