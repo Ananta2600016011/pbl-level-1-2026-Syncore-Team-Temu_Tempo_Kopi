@@ -12,13 +12,11 @@
 
 | Artefak | Tool AI | Bagian yang Dibantu | Modifikasi yang Dilakukan |
 |---|---|---|---|
-| **D1** (didukung WS03 & WS04) | Google Gemini ([Riwayat Chat Sesi Gemini](https://drive.google.com/file/d/10EiTKR47nxkSM4PEyo7318-lonPcetPZ/view?usp=sharing)) | Mengaudit dan menyesuaikan tata bahasa. Kami menggunakan AI untuk membantu mengecek apakah isi laporan di WS03 dan WS04 sudah sesuai dengan bukti yang ada, serta mencari kata-kata yang terlalu santai agar bisa diperbaiki. | 1. **Memeriksa Masukan AI**: Tim membaca ulang saran dari AI dan memastikan semuanya tetap sesuai dengan kondisi nyata kedai Mas Joy.<br>2. **Memperbaiki Kalimat**: Mengganti kata-kata percakapan santai (seperti *"pas"*, *"cuma"*, *"HP"*) menjadi kata yang lebih rapi dan formal tanpa mengubah fakta di lapangan. |
+| **D1** (didukung WS03 & WS04) | Google Gemini ([Riwayat Chat Sesi Gemini](https://drive.google.com/file/d/1T9Y57ohpgDMDvpHf_d8pXTtMdHuZs2N1/view?usp=sharing)) | Mengaudit dan menyesuaikan tata bahasa. Kami menggunakan AI untuk membantu mengecek apakah isi laporan di WS03 dan WS04 sudah sesuai dengan bukti yang ada, serta mencari kata-kata yang terlalu santai agar bisa diperbaiki. | 1. **Memeriksa Masukan AI**: Tim membaca ulang saran dari AI dan memastikan semuanya tetap sesuai dengan kondisi nyata kedai Mas Joy.<br>2. **Memperbaiki Kalimat**: Mengganti kata-kata percakapan santai (seperti *"pas"*, *"cuma"*, *"HP"*) menjadi kata yang lebih rapi dan formal tanpa mengubah fakta di lapangan. |
 | **D2** | - | *Belum menggunakan AI (Fase Desain & Solusi)* | - |
 | **D3** | - | *Belum menggunakan AI (Fase Prototipe & Uji)* | - |
 | **D4** | - | *Belum menggunakan AI (Fase Portofolio & Refleksi)* | - |
 | **E1-E7** | - | *Belum menggunakan AI (Fase Pelaporan/Final)* | - |
-
-> **Tautan Bukti Riwayat Sesi AI**: [Riwayat Chat Sesi Gemini - Google Drive](https://drive.google.com/file/d/10EiTKR47nxkSM4PEyo7318-lonPcetPZ/view?usp=sharing)
 
 ---
 
