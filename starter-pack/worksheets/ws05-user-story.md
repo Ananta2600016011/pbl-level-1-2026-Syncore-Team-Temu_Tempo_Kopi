@@ -76,7 +76,7 @@ Susun kriteria penerimaan terstruktur untuk User Story 1 (mencakup Skenario Suks
 * **Tanggal Validasi**: 26 Oktober 2026 (Terjadwal) | Narahubung: Mas Joy (Pemilik)
 * **Narahubung Mitra**: Mas Joy (Pemilik)
 * **Hasil Konfirmasi User Story**:
-  - [✓] Seluruh User Story disetujui mitra
+  - [x] Seluruh User Story disetujui mitra
     **bukti persetujuan**: [Buka di Google Drive](https://docs.google.com/document/d/1iEeE0Nn09S2G_LeHFvQMmidNzTp6dBkkdoTBe9warUA/edit?usp=sharing)
   - [ ] Terdapat penyesuaian/revisi kebutuhan (Tuliskan revisi jika ada):
     __________________________________________________________________
@@ -86,13 +86,13 @@ Susun kriteria penerimaan terstruktur untuk User Story 1 (mencakup Skenario Suks
 ### **6. Verifikasi Integritas AI (TPL-07) & Pengesahan**
 
 **Penggunaan AI Co-pilot:**
-Apakah tim menggunakan AI untuk membantu merumuskan skenario Given-When-Then? [ ] Ya  [x] Tidak  
+Apakah tim menggunakan AI untuk membantu merumuskan skenario Given-When-Then? [ ] Ya [x] Tidak  
 *(Jika Ya, wajib melampirkan formulir TPL-07: AI Usage Disclosure & Verification Note).*
 
 Tanda Tangan Tim & Pengesahan Dosen:
 
 ```text
-Phase Lead 3: Satria Ariya Prathama (Tanggal: 26 Oktober 2026)
+Phase Lead 3: Satria Ariya Prathama[Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg) (Tanggal: 26 Oktober 2026)
 ```
 ```text
 Dosen Coach: _______________________ (Tanggal: __________)  [ ] Approved
