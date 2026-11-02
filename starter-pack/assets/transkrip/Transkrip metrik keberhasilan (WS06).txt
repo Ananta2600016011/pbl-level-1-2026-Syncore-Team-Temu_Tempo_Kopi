@@ -1,0 +1,128 @@
+﻿Ananta
+"Nah untuk yang kedua ini Mas, kami ini kan dalam sebuah projek atau sistem itu kan ada matrik-matrik keberhasilan ya. Jadi yang namanya sebuah sistem yang akan kita buat itu pasti ada target keberhasilan yang ingin dicapai. Nah kami ini sudah menentukan beberapa target keberhasilan yang akan insya Allah kita capai ya dengan sistem yang akan kita buat yang akan diimplementasikan di kedainya Mas Joy nanti. Nah kami di sini mau mengkonfirmasi ke Mas Joy aja untuk matrik-matrik apa saja yang akan kita coba capailah untuk bisa menunjang bisnis Mas Joy ini, gitu kan."
+
+
+
+
+Mas Joy
+"Heeh."
+
+
+
+
+Ananta
+"Yang pertama itu yang efisiensi waktu, karena kinerjanya Mas Joy ini kan masih rekapitulasi mingguan ya, secara mingguan. Nah kondisinya kan berarti butuh kurang lebih 60 menit atau 1 jam setiap hari Minggu kan saat libur untuk melakukan rekap mingguan. Nah targetnya tuh sebenarnya bisa dilakukan nanti kurang dari 5 menit per minggu. Jadi bisa menghemat waktu Mas Joy gitu, kurang lebih. Kemudian metodenya itu nanti bisa melalui pengujian waktu ketika data kasir nanti diimpor ke spreadsheet atau sistem. Nanti kita bisa ukur lewat stopwatch, kurang lebihnya seperti itu."
+
+
+
+
+Mas Joy
+"Heeh."
+
+
+
+
+Ananta
+"Untuk dimensi efektivitas akurasi, itu lebih ke arah Mas Joy kan pernah bilang bahwa ada beberapa transaksi itu setiap minggu kadang 1-2 transaksi itu lewat ya, ngedrop atau kelupaan lah saat kedai ramai lah kurang lebih kayak gitu. Nah kita maunya itu nanti tidak terjadi lagi tuh salah rekap dengan sistem yang akan kita buat. Nah nanti metodenya dapat dengan rekonsiliasi silang. Jumlah nota kasir akan dibandingkan dengan nanti hasil ringkasan sistem. Jadi Mas Joy juga bisa lihat gitu kan, kalau misalkan ada transaksi yang lewat di kemudian hari."
+
+
+
+
+Mas Joy
+"Heeh."
+
+
+
+
+Ananta
+"Kemudian untuk efektivitas tata kelola itu lebih ke arah pemisahan kas yang tadi, yang usaha dengan yang pribadi. Kan Mas Joy sampai detik ini kan masih belum ada tuh yang namanya fitur modal atau pos pencatatan tuh untuk uang kas kedai dengan uang kas pribadi, sehingga kadang masih tercampur kan. Yang pribadi masih sering dipakai ke kedai, yang kedai masih dipakai ke pribadi, gitu kan. Nah kita maunya itu nanti 100% dana pribadi itu bisa tercatat terpisah, sehingga nanti Mas Joy bisa mengukur lah kayak, 'Oh ini yang pribadi, oh ini yang bagian usaha.' Nanti metode pengukurannya itu dapat berupa audit yang dilakukan oleh Mas Joy sendiri nanti mengenai hal tersebut."
+
+
+
+
+Mas Joy
+"Heeh."
+
+
+
+
+Ananta
+"Kemudian kalau untuk efektivitas yang terakhir itu yang analisis bisnis, ini yang bagian grafik, karena kinerjanya itu kan berarti nanti mempermudah Mas Joy dalam mengevaluasi penjualan. Selama ini kan masih belum ada tuh, ya kan? Bentuknya masih Excel ya, masih Excel, masih angka-angka tanpa adanya grafik yang bisa dilihat secara menarik lah. Nah kita maunya nanti dari yang awalnya Excel yang isinya hanya angka, itu dapat berupa grafik yang visual, otomatis, yang memanjakan mata, yang gampang dibaca, yang menjadi analisis dan diobservasi oleh Mas Joy. Sehingga bisa melihat namanya tren omzet mingguan, bisa melihat mana yang paling laris, mana yang kurang diminati, kemudian bisa mengkomparasi penjualan menu, gitu kan. Sehingga bisa nanti menentukan strategi promosi dan bisa menentukan menu apa aja yang memang harus lebih ditekankan untuk dipromosiin, gitu kan."
+
+
+
+
+Mas Joy
+"Heeh."
+
+
+
+
+Ananta
+"Nah uji cobanya tuh nanti ketika grafiknya muncul, apakah grafik itu akan tepat dan sesuai dengan data yang Mas Joy punya, dan ketika grafik muncul apakah Mas Joy bisa memahami dengan baik grafik yang ada. Nah menurut Mas Joy apakah keberhasilan atau matrik-matrik ini sudah sesuai dengan apa yang Mas Joy inginkan dan apa yang Mas Joy tuntut lah dari kita? Kurang lebihnya kayak gitu."
+
+
+
+
+Mas Joy
+"Tadi ada berapa? Tiga tadi kalau nggak salah?"
+
+
+
+
+Ananta
+"Empat."
+
+
+
+
+Mas Joy
+"Empat ya?"
+
+
+
+
+Ananta
+"Iya, waktu, terus yang akurasi yang salah transkrip, terus tata kelola itu yang pemisahan yang pribadi dan ini, sama bisnis tuh yang grafik."
+
+
+
+
+Mas Joy
+"Grafik ya. Kurang lebih dari keempat itu udah cukup sih sejauh ini. Karena memang apa ya, ya sama-sama saling membutuhkan. Dari mulai apa yang pertama?"
+
+
+
+
+Ananta
+"Waktu."
+
+
+
+
+Mas Joy
+"Waktu, terus itu kan saling berkesinambungan semua ya. Yang penting apa ya... bisa lebih mempermudah aja. Dan dari kalian pun nggak sulit untuk apa... mengimplementasikan semua itu. Yang terpikir ya cukup itu aja sih."
+
+
+
+
+Ananta
+"Iya. Jadi emang kami juga nggak bisa berbuat yang bener-bener kayak canggih, karena kan kita masih semester satu gitu kan. Kita dituntut cuman membuat sebuah sistem yang memang sederhana tapi membantu mitra gitu kan. Meskipun sederhana tapi impact-nya pun juga harus berdampak gitu kan. Sehingga ya ini kami juga membuatnya simpel, sederhana, tapi kami mencoba untuk pastiin bahwa nanti hasilnya bisa berdampak bagi kelayakan usahanya Mas Joy. Kurang lebih kayak gitu."
+
+
+
+
+Ananta
+"Jadi kalau misalkan Mas Joy memang udah accept, udah approve, terima kasih buat Mas Joy gitu kan, udah nerima kami, udah membiarkan kedainya diobservasi gitu kan. Dan sekarang tinggal nanti kita menindaklanjuti sistemnya, nanti kita akan buat, dan nanti Mas Joy bisa menerima hasilnya di kemudian hari lah dari hari ini. Kurang lebihnya kayak gitu. Saya beserta tim berterima kasih sekali lagi ke Mas Joy untuk mengizinkan kedainya dilakukan observasi dengan project kami. Kurang lebihnya kayak gitu."
+
+
+
+
+Mas Joy
+"Iya."
+
+
+
+
+Ananta
+"Sudah cukup. Aman."
