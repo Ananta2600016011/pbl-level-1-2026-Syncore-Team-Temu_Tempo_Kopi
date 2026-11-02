@@ -77,7 +77,7 @@ Susun kriteria penerimaan terstruktur untuk User Story 1 (mencakup Skenario Suks
 * **Narahubung Mitra**: Mas Joy (Pemilik)
 * **Hasil Konfirmasi User Story**:
   - [✓] Seluruh User Story disetujui mitra
-    **bukti persetujuan**: 
+    **bukti persetujuan**: [Buka di Google Drive](https://docs.google.com/document/d/1iEeE0Nn09S2G_LeHFvQMmidNzTp6dBkkdoTBe9warUA/edit?usp=sharing)
   - [ ] Terdapat penyesuaian/revisi kebutuhan (Tuliskan revisi jika ada):
     __________________________________________________________________
 
