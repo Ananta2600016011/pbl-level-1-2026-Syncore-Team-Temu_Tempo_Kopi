@@ -92,14 +92,13 @@ Dengan ini, pemilik / manajer UMKM mitra menyatakan setuju atas rumusan kebutuha
 ### **6. Verifikasi Integritas AI (TPL-07) & Pengesahan**
 
 **Penggunaan AI Co-pilot:
-Apakah tim menggunakan AI untuk membantu merumuskan metrik BPI / diagram 5 pilar SI? [x] Ya  [ ] Tidak
+Apakah tim menggunakan AI untuk membantu merumuskan metrik BPI / diagram 5 pilar SI? [ ] Ya  [x] Tidak
 (Jika Ya, wajib melampirkan formulir TPL-07: AI Usage Disclosure & Verification Note).**
 
 Tanda Tangan Tim & Pengesahan Dosen:
 
-```text
 Phase Lead 3: Satria Ariya Prathama - [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg) (Tanggal: 29 Oktober 2026)
-```
+
 ```text
 Dosen Coach: _______________________ (Tanggal: __________)  [ ] Approved
 ```

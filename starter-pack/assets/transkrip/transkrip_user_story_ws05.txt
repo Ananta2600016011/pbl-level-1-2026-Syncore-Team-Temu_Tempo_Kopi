@@ -1,0 +1,65 @@
+﻿Ananta
+"Jadi, jadi gini Mas. Yang, tadi kan kita suruh buat user story ya. User story itu kayak cerita pengguna lah dalam mentranskripkan solusi yang akan kita buat gitu."
+
+Mas Joy
+"Heeh."
+
+Ananta
+"Nah, user story yang pertama itu tentang rekapitulasi otomatis. Rekapitulasi otomatis ini maksudnya seperti apa, nanti rekapitulasi otomatis itu kita sebagai tim akan membuat template dari spreadsheet. Template spreadsheet ini nanti yang akan digunakan oleh Mas Joy untuk menginput data yang ada di aplikasi kasir. Gitu. Nanti Mas Joy akan memindahkan atau mengimpor data transaksi mingguan dari aplikasi kasir ke dalam sistem spreadsheet yang udah kita buat templatenya. Nanti akan langsung direkap secara otomatis dalam spreadsheet tersebut, ya."
+
+Mas Joy
+"Heeh."
+
+Ananta
+"Nanti manfaatnya itu dapat berupa menghemat waktu, ya, kemudian lebih akurat, sama meminimalisir kesalahan hitung maupun transaksi yang terlewat. Nah kurang lebihnya seperti itulah. Menurut Mas Joy apakah user story satu ini memenuhi kriteria Mas Joy dalam sistem yang akan kita buat?"
+
+Mas Joy
+"Untuk sejauh yang dijelasin sih kurang lebih udah memenuhi kriteria ya. Tinggal pelaksanaan selanjutnya aja. Kurang lebih seperti itu."
+
+Ananta
+"Oke, itu untuk yang user story pertama ya Mas ya."
+
+Mas Joy
+"Iya."
+
+Ananta
+"Kemudian untuk yang user story kedua itu yang masalah pemisahan kas atau keuangan usaha dan keuangan pribadi atau kas pribadi. Nah nanti Mas Joy itu akan mendapatkan sebuah fitur pencatatan khusus yang nanti kita buat untuk memisahkan pengeluaran operasional kedai dengan penarikan dana pribadi, gitu lho. Nah, manfaatnya apa? Manfaatnya itu adalah untuk nanti arus dan kas operasional kedai dan saldo fisik di keuangan Mas Joy nanti dapat dipantau secara akurat tanpa adanya tercampurnya kebutuhan pribadi. Sehingga bener-bener terpisah, sehingga nanti bisa melihat secara pribadi gimana catatan keuangan yang ada di kedai dengan catatan keuangan yang pribadi, gitu."
+
+Mas Joy
+"Heeh."
+
+Ananta
+"Nah menurut Mas Joy apakah fitur ini itu mendukung operasional toko Mas Joy menjadi lebih baik ke depannya, gitu lho?"
+
+Mas Joy
+"Kalau untuk yang... oh ini opsi jatuhnya?"
+
+Ananta
+"Ya sebenarnya kita dua-duanya akan ngelakuin. Cuman kan kita yang pertama itu dulu, yang kedua ini mau konfirmasi ke Mas-nya yang fitur kedua kurang lebihnya."
+
+Mas Joy
+"Oh iya. Kalau untuk fitur yang kedua ini sangat membantu ya, karena memang sejauh ini belum ada fitur yang memisahkan antara keuangan operasional dengan keuangan pribadi ya. Nah itu sangat approve untuk fitur yang kedua ini."
+
+Ananta
+"Kemudian kalau untuk yang ketiga itu nanti kita akan membahas visualisasi grafik yang akan mengevaluasi data penjualan Mas Joy, gitu kan. Itu nanti Mas Joy akan mendapatkan sebuah ringkasan performa penjualan kedai dalam bentuk grafik yang nanti yang akan kami sediakan secara visual yang ringkas dan mudah dipahami, gitu kan."
+
+Mas Joy
+"Heeh."
+
+Ananta
+"Nah, nanti grafik ini akan muncul dari data yang nanti diinput oleh Mas Joy ke spreadsheet yang tadi yang kita buat templatenya. Nah, manfaat dari fitur atau user story yang ketiga ini adalah untuk mengevaluasi bisnis mingguan, sehingga Mas Joy bisa melihat tren omzet atau pendapatan serta bisa membuat perbandingan menu mana saja yang laris, mana saja yang kurang diminati, dan juga nanti bisa menentukan apa sih menu yang harus lebih gencar dipromosikan oleh Mas Joy, gitu kan."
+
+Mas Joy
+"Iya."
+
+Ananta
+"Dan juga bisa membaca tabel angka mentah tuh dalam artian nanti karena bentuknya grafik kan jadi lebih mudah dipahami oleh Mas Joy ya, bentuknya nggak angka gitu kan. Sehingga Mas Joy pun juga bisa lebih paham gitu, lebih enak aja ngelihatnya. Nah menurut Mas, fitur yang ketiga ini apakah juga dibutuhkan oleh Mas Joy untuk mengevaluasi kedai kopi Mas Joy ini?"
+
+Mas Joy
+"Kalau untuk fitur yang ketiga juga dibutuhkan karena selain daripada fitur-fitur sebelumnya, yang ketiga ini juga tidak kalah penting untuk apa ya, lebih efisien ya. Maksudnya lebih mempermudah lah untuk operasional dan sebagainya. Ya, approve juga sih."
+
+Ananta
+"Oke kurang lebih. Berarti tiga fiturnya kan semuanya bisa di-approve lah ya sama Mas Joy. Ya udah kurang lebihnya itu. Untuk selanjutnya nanti kita akan menindaklanjutilah dari tiga opsi ini."
+
+Mas Joy
+"Iya."
