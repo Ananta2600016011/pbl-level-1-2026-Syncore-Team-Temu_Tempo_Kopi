@@ -78,14 +78,10 @@ Dengan ini, pemilik / manajer UMKM mitra menyatakan setuju atas rumusan kebutuha
 
 * **Nama UMKM Mitra**: Temu Tempo Kopi
 * **Nama Pemilik / Pengelola**: Mas Joy
-* **Tanggal Persetujuan**: ____________________
+* **Tanggal Persetujuan**: 2-nov-2026
 
 **Tanda Tangan Persetujuan Mitra:**
-
-```text
-
-(Cap / Tanda Tangan Pemilik UMKM Mitra)
-```
+[Lihat Tanda Tangan Digital](../assets/tanda_tangan/tanda_tangan_mas_joy(pemilik).jpg)
 
 ---
 
