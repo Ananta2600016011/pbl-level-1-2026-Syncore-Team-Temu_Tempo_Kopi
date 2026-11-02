@@ -76,8 +76,7 @@ Susun kriteria penerimaan terstruktur untuk User Story 1 (mencakup Skenario Suks
 * **Tanggal Validasi**: 26 Oktober 2026 (Terjadwal) | Narahubung: Mas Joy (Pemilik)
 * **Narahubung Mitra**: Mas Joy (Pemilik)
 * **Hasil Konfirmasi User Story**:
-  - [x] Seluruh User Story disetujui mitra
-    **bukti persetujuan**: [Buka di Google Drive](https://docs.google.com/document/d/1iEeE0Nn09S2G_LeHFvQMmidNzTp6dBkkdoTBe9warUA/edit?usp=sharing)
+  - [x] Seluruh User Story disetujui mitra. **bukti persetujuan**: [Buka di Google Drive](https://docs.google.com/document/d/1iEeE0Nn09S2G_LeHFvQMmidNzTp6dBkkdoTBe9warUA/edit?usp=sharing)
   - [ ] Terdapat penyesuaian/revisi kebutuhan (Tuliskan revisi jika ada):
     __________________________________________________________________
 
