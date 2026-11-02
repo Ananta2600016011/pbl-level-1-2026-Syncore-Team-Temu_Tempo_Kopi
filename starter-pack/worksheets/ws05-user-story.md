@@ -90,9 +90,8 @@ Apakah tim menggunakan AI untuk membantu merumuskan skenario Given-When-Then? [ 
 
 Tanda Tangan Tim & Pengesahan Dosen:
 
-```text
-Phase Lead 3: Satria Ariya Prathama[Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg) (Tanggal: 26 Oktober 2026)
-```
+Phase Lead 3: Satria Ariya Prathama - [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg) (Tanggal: 26 Oktober 2026)
+
 ```text
 Dosen Coach: _______________________ (Tanggal: __________)  [ ] Approved
 ```
