@@ -97,9 +97,8 @@ Apakah tim menggunakan AI untuk membantu merumuskan metrik BPI / diagram 5 pilar
 
 Tanda Tangan Tim & Pengesahan Dosen:
 
-```text
 Phase Lead 3: Satria Ariya Prathama - [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg) (Tanggal: 29 Oktober 2026)
-```
+
 ```text
 Dosen Coach: _______________________ (Tanggal: __________)  [ ] Approved
 ```
