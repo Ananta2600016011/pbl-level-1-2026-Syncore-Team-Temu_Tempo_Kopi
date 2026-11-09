@@ -42,7 +42,7 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 * **Input**: Data transaksi kasir (nomor transaksi, tanggal, waktu, menu, kategori, kuantitas, harga satuan, metode pembayaran) dan rentang periode rekapitulasi.
 * **Processing**: Validasi kelengkapan data, kalkulasi subtotal (kuantitas * harga), penjumlahan total omzet (SUM), rekapitulasi omzet per kategori produk (SUMIF), rekap metode bayar Cash vs QRIS, dan pengurutan menu terlaris vs menu lambat.
 * **Output**: Tabel ringkasan rekapitulasi penjualan mingguan (total omzet kotor, total transaksi, proporsi omzet kategori, rincian pembayaran) serta status rekapitulasi berhasil.
-* **Storage**: Tab `Rekap_Penjualan` pada Google Sheets dan/atau file lokal `data_penjualan.csv`.
+* **Storage**: Tab Rekap_Penjualan pada Google Sheets dan/atau file lokal data_penjualan.csv.
 * **Control (Error Handling)**: Pengecekan data kosong/non-numerik, penolakan kuantitas <= 0 atau harga negatif, serta proteksi pembatalan proses jika format berkas tidak sesuai kolom standar.
 
 ##### **Fitur Fungsional Utama 2: Pencatatan Keuangan Operasional & Pemisahan Pos Prive**
@@ -50,7 +50,7 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 * **Input**: Tanggal transaksi, jenis aliran kas (Pemasukan Bisnis, Pengeluaran Operasional, atau Prive Pemilik), keterangan transaksi, nominal rupiah, dan saldo kas awal.
 * **Processing**: Validasi nominal (> 0), pengelompokan akun (Pengeluaran Operasional dicatat sebagai beban usaha; Prive dicatat di pos terpisah dan tidak mengurangi laba usaha melainkan hanya mengurangi saldo kas akhir), kalkulasi laba operasional bersih, dan kalkulasi saldo fisik kas akhir.
 * **Output**: Ringkasan laporan arus kas (cash flow), laba operasional bersih kedai, log catatan penarikan prive pemilik, dan informasi saldo kas fisik aktual di laci.
-* **Storage**: Tab `Keuangan_Kas` & `Buku_Prive` pada Google Sheets dan/atau file lokal `data_keuangan.csv`.
+* **Storage**: Tab Keuangan_Kas & Buku_Prive pada Google Sheets dan/atau file lokal data_keuangan.csv.
 * **Control (Error Handling)**: Menolak nominal <= 0 dengan notifikasi eror, serta menampilkan peringatan (warning) jika penarikan kas melebihi saldo kas riil kedai.
 
 #### **4. DIAGRAM ALIR (FLOWCHART) LOGIKA PROGRAM**
