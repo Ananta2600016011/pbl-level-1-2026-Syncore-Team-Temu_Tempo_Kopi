@@ -58,11 +58,11 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 Rancangan logika sistem Temu Tempo Kopi dibagi menjadi diagram proses bisnis (BPM) dan 3 fungsi modular:
 1. **Business Process Model (BPM Swimlane)**: Memetakan interaksi nyata antara Customer, Kasir (Tablet Aplikasir), Pemilik Kedai (Mas Joy), dan Sistem (Google Sheets/Python).
 2. **Flowchart Function 1 (Rekapitulasi Penjualan CSV)**: Membaca berkas `.csv` kasir per baris transaksi (1-loop) untuk menghitung Total Omzet, Laba Kotor (memotong HPP bahan baku per menu), akumulasi omzet per kategori menu, metode pembayaran (Cash vs QRIS), dan wadah kuantitas menu terjual.
-3. **Flowchart Function 2 (Cashflow & Pos Prive Interaktif)**: Menerima return omzet dan laba kotor dari Function 1, memproses live-input pengeluaran (Beban Operasional vs Prive Pemilik), serta menghitung Laba Bersih Usaha (`Laba_Kotor - Beban`) dan Sisa Kas Fisik (`Total_Omzet - Beban - Prive`).
-4. **Flowchart Function 3 (Dashboard Evaluasi Bisnis & Grafik)**: Menerima seluruh variabel return dari Function 1 dan 2, menghitung proporsi persentase (dengan safety check `total_omzet > 0`), menentukan menu terlaris/kurang diminati, dan memberi instruksi pembuatan grafik visual di spreadsheet.
+3. **Flowchart Function 2 (Cashflow & Pos Prive Interaktif)**: Menerima return omzet dan laba kotor dari Function 1, memproses live-input pengeluaran (Beban Operasional vs Prive Pemilik), serta menghitung Laba Bersih Usaha (Laba_Kotor - Beban) dan Sisa Kas Fisik (Total_Omzet - Beban - Prive).
+4. **Flowchart Function 3 (Dashboard Evaluasi Bisnis & Grafik)**: Menerima seluruh variabel return dari Function 1 dan 2, menghitung proporsi persentase (dengan safety check total_omzet > 0), menentukan menu terlaris/kurang diminati, dan memberi instruksi pembuatan grafik visual di spreadsheet.
 
 - **Tautan Berkas Digital (Google Drive)**: [Buka Folder Diagram BPMN & Flowchart](https://drive.google.com/drive/folders/1wN8l2Wl4Sm-SjztREuGyHkVe6icVcpk6)
-- **Arsip Berkas Gambar Lokal**: Tersedia di direktori proyek (`BPM_TemuTempoKopi.jpg.jpeg`, `Flowchart_Function1_Rekap.jpg.jpeg`, `Flowchart_Function2_Cashflow.jpg.jpeg`, `Flowchart_Function3_Grafik.png`, dan `system_utama.jpg`).
+- **Arsip Berkas Gambar Lokal**: Tersedia di direktori proyek (BPM_TemuTempoKopi.jpg.jpeg, Flowchart_Function1_Rekap.jpg.jpeg, Flowchart_Function2_Cashflow.jpg.jpeg, Flowchart_Function3_Grafik.png, dan system_utama.jpg).
 
 #### **5. PSEUDOCODE TERSTRUKTUR (INDEPENDEN TEKNOLOGI)**
 
