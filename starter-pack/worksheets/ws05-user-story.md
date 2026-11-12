@@ -73,7 +73,7 @@ Susun kriteria penerimaan terstruktur untuk User Story 1 (mencakup Skenario Suks
 
 ### **5. Workspace C: Catatan Validasi Kebutuhan dengan Mitra (Field Confirmation)**
 
-* **Tanggal Validasi**: 26 Oktober 2026 (Terjadwal) | Narahubung: Mas Joy (Pemilik)
+* **Tanggal Validasi**: 02-11-2026 (Terjadwal) | Narahubung: Mas Joy (Pemilik)
 * **Narahubung Mitra**: Mas Joy (Pemilik)
 * **Hasil Konfirmasi User Story**:
   - [x] Seluruh User Story disetujui mitra. **bukti persetujuan**: [Buka di Google Drive](https://docs.google.com/document/d/1iEeE0Nn09S2G_LeHFvQMmidNzTp6dBkkdoTBe9warUA/edit?usp=sharing)
@@ -90,7 +90,7 @@ Apakah tim menggunakan AI untuk membantu merumuskan skenario Given-When-Then? [ 
 
 Tanda Tangan Tim & Pengesahan Dosen:
 
-Phase Lead 3: Satria Ariya Prathama - [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg) (Tanggal: 26 Oktober 2026)
+Phase Lead 3: Satria Ariya Prathama - [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg) 
 
 ```text
 Dosen Coach: _______________________ (Tanggal: __________)  [ ] Approved
