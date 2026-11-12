@@ -18,10 +18,6 @@
 | **D4** | - | *Belum menggunakan AI (Fase Portofolio & Refleksi)* | - |
 | **E1-E7** | - | *Belum menggunakan AI (Fase Pelaporan/Final)* | - |
 
-> **Tautan Bukti Riwayat Sesi AI**:  
-> - [Sesi Chat D1 & Observasi (Google Drive)](https://drive.google.com/file/d/1T9Y57ohpgDMDvpHf_d8pXTtMdHuZs2N1/view?usp=sharing)  
-> - [Folder Sesi Chat D2, Flowchart & Bukti Kasir (Google Drive)](https://drive.google.com/drive/folders/1GWHJMwAJZlvyukXHwQyh4MM3DOQbYKFL?usp=drive_link)
-
 ---
 
 ## 2. Verification Note
