@@ -78,7 +78,7 @@ Dengan ini, pemilik / manajer UMKM mitra menyatakan setuju atas rumusan kebutuha
 
 * **Nama UMKM Mitra**: Temu Tempo Kopi
 * **Nama Pemilik / Pengelola**: Mas Joy
-* **Tanggal Persetujuan**: 2-nov-2026
+* **Tanggal Persetujuan**: 02-11-2026
 
 **Tanda Tangan Persetujuan Mitra:**
 [Lihat Tanda Tangan Digital](../assets/tanda_tangan/tanda_tangan_mas_joy(pemilik).jpg)
@@ -93,7 +93,7 @@ Apakah tim menggunakan AI untuk membantu merumuskan metrik BPI / diagram 5 pilar
 
 Tanda Tangan Tim & Pengesahan Dosen:
 
-Phase Lead 3: Satria Ariya Prathama - [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg) (Tanggal: 29 Oktober 2026)
+Phase Lead 3: Satria Ariya Prathama - [Lihat Tanda Tangan Digital](../assets/tanda_tangan_team/tanda_tangan_satria.jpg)
 
 ```text
 Dosen Coach: _______________________ (Tanggal: __________)  [ ] Approved
