@@ -11,9 +11,9 @@
 
 | # | User Story (Role - Goal - Benefit) | Prioritas |
 |---|---|:---:|
-| **US-01** | **Sebagai** Pemilik Temu Tempo Kopi (Mas Joy),<br>**Saya ingin** mengimpor berkas transaksi mingguan dari aplikasi kasir tablet untuk direkapitulasi secara otomatis,<br>**Sehingga** proses rekapitulasi dapat selesai dalam waktu kurang dari 5 menit tanpa rumus manual di Excel dan menghemat waktu libur hari Minggu. | **Tinggi** |
-| **US-02** | **Sebagai** Pengelola Keuangan Kedai,<br>**Saya ingin** mencatat pengeluaran operasional bisnis dan penarikan pribadi (prive) secara terpisah,<br>**Sehingga** arus kas usaha tetap transparan dan laba bersih aktual kedai tidak terdistorsi oleh pengeluaran pribadi pemilik. | **Tinggi** |
-| **US-03** | **Sebagai** Pengambil Keputusan Usaha,<br>**Saya ingin** melihat dasbor visual grafik mingguan (tren omzet, proporsi kategori menu kopi vs makanan, rasio pembayaran QRIS/Tunai, dan ranking menu),<br>**Sehingga** dapat mengevaluasi performa produk dan menentukan strategi promo bundling secara cepat dan akurat. | **Sedang** |
+| **US-01** | **Sebagai** Pemilik Temu Tempo Kopi (Mas Joy), **saya ingin** mengimpor berkas transaksi mingguan dari aplikasi kasir tablet untuk direkapitulasi secara otomatis, **sehingga** proses rekapitulasi dapat selesai dalam waktu kurang dari 5 menit tanpa rumus manual di Excel dan menghemat waktu libur hari Minggu. | **Tinggi** |
+| **US-02** | **Sebagai** Pengelola Keuangan Kedai, **saya ingin** mencatat pengeluaran operasional bisnis dan penarikan pribadi (prive) secara terpisah, **sehingga** arus kas usaha tetap transparan dan laba bersih aktual kedai tidak terdistorsi oleh pengeluaran pribadi pemilik. | **Tinggi** |
+| **US-03** | **Sebagai** Pengambil Keputusan Usaha, **saya ingin** melihat dasbor visual grafik mingguan (tren omzet, proporsi kategori menu kopi vs makanan, rasio pembayaran QRIS/Tunai, dan ranking menu), **sehingga** dapat mengevaluasi performa produk dan menentukan strategi promo bundling secara cepat dan akurat. | **Sedang** |
 
 ---
 
@@ -21,9 +21,9 @@
 
 | # | Kriteria Penerimaan (Format Given - When - Then) |
 |---|---|
-| **AC-01** | **Given** berkas laporan transaksi mingguan format CSV dari tablet Aplikasir telah diunduh,<br>**When** data diproses oleh sistem rekapitulasi,<br>**Then** sistem otomatis menghitung total omzet kotor, total laba kotor (omzet - HPP), dan agregasi penjualan per menu dalam waktu < 5 detik dengan akurasi 100%. |
-| **AC-02** | **Given** terdapat transaksi pengeluaran kas kedai untuk kebutuhan pribadi pemilik,<br>**When** nominal dan keterangan diinput dengan memilih opsi pos "Prive",<br>**Then** sistem mencatat transaksi tersebut ke Buku Prive, memotong sisa kas fisik di laci, dan TIDAK mengurangi nilai laba bersih operasional kedai. |
-| **AC-03** | **Given** data rekapitulasi penjualan dan pengeluaran kas telah selesai diproses,<br>**When** pemilik membuka lembar dasbor evaluasi,<br>**Then** sistem menyajikan grafik Donut proporsi kategori menu, grafik Pie metode pembayaran, bar chart peringkat menu terlaris vs terendah, serta ringkasan laba bersih mingguan. |
+| **AC-01** | **Given** berkas laporan transaksi mingguan format CSV dari tablet Aplikasir telah diunduh, **when** data diproses oleh sistem rekapitulasi, **then** sistem otomatis menghitung total omzet kotor, total laba kotor (omzet - HPP), dan agregasi penjualan per menu dalam waktu < 5 detik dengan akurasi 100%. |
+| **AC-02** | **Given** terdapat transaksi pengeluaran kas kedai untuk kebutuhan pribadi pemilik, **when** nominal dan keterangan diinput dengan memilih opsi pos "Prive", **then** sistem mencatat transaksi tersebut ke Buku Prive, memotong sisa kas fisik di laci, dan TIDAK mengurangi nilai laba bersih operasional kedai. |
+| **AC-03** | **Given** data rekapitulasi penjualan dan pengeluaran kas telah selesai diproses, **when** pemilik membuka lembar dasbor evaluasi, **then** sistem menyajikan grafik Donut proporsi kategori menu, grafik Pie metode pembayaran, bar chart peringkat menu terlaris vs terendah, serta ringkasan laba bersih mingguan. |
 
 ---
 
