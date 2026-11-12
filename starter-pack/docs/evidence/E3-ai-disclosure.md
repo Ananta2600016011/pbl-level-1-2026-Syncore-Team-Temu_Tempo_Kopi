@@ -36,11 +36,11 @@
 Kami menyatakan daftar di atas lengkap dan jujur. Seluruh output AI telah dianalisis, dimodifikasi, dan diverifikasi secara manual oleh tim.
 
 Tanda tangan seluruh anggota:  
-- Satria Ariya Prathama: [Lihat Tanda Tangan Digital](../../assets/tanda_tangan_team/tanda_tangan_satria.jpg)  
-- Ananta Rizqi Fadhlurrohman: [Lihat Tanda Tangan Digital](../../assets/tanda_tangan_team/tanda_tangan_ananta.jpg)  
-- Muhammad Rasikh Zakki Aufa: [Lihat Tanda Tangan Digital](../../assets/tanda_tangan_team/tanda_tangan_zakki.jpg)  
-- Muhammad Dhiyauddin Nur: [Lihat Tanda Tangan Digital](../../assets/tanda_tangan_team/tanda_tangan_yaud.jpg)  
-- Alfin Farrel Gennaro: [Lihat Tanda Tangan Digital](../../assets/tanda_tangan_team/tanda_tangan_alfin.jpg)  
+- Satria Ariya Prathama: [Lihat Tanda Tangan Digital](../../assets/tanda_tangan/tanda_tangan_satria.jpg)  
+- Ananta Rizqi Fadhlurrohman: [Lihat Tanda Tangan Digital](../../assets/tanda_tangan/tanda_tangan_ananta.jpg)  
+- Muhammad Rasikh Zakki Aufa: [Lihat Tanda Tangan Digital](../../assets/tanda_tangan/tanda_tangan_zakki.jpg)  
+- Muhammad Dhiyauddin Nur: [Lihat Tanda Tangan Digital](../../assets/tanda_tangan/tanda_tangan_yaud.jpg)  
+- Alfin Farrel Gennaro: [Lihat Tanda Tangan Digital](../../assets/tanda_tangan/tanda_tangan_alfin.jpg)  
 
 ---
 
