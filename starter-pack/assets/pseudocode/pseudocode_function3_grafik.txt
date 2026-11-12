@@ -1,0 +1,96 @@
+PSEUDOCODE FUNCTION 3: EVALUASI BISNIS & VISUALISASI DASBOR GRAFIK
+Digital Problem Framing Mini Project - Temu Tempo Kopi
+Syncore Team
+
+================================================================================
+ALGORITMA Function3_Evaluasi_dan_Visualisasi
+================================================================================
+
+KAMUS DATA:
+   data_f1              : RECORD (Total_Omzet, Laba_Kotor, Total_Transaksi_Valid,
+                                  Omzet_Coffee, Omzet_NonCoffee, Omzet_Food, Omzet_Snacks,
+                                  Omzet_Cash, Omzet_QRIS, tabel_menu, ...)
+   data_f2              : RECORD (Total_Pengeluaran_Bisnis, Total_Prive,
+                                  Laba_Bersih, Sisa_Kas, ...)
+   persen_coffee        : REAL
+   persen_non_coffee    : REAL
+   persen_food          : REAL
+   persen_snacks        : REAL
+   persen_cash          : REAL
+   persen_qris          : REAL
+   menu_terlaris        : STRING
+   qty_terlaris         : INTEGER
+   menu_kurang_diminati : STRING
+   qty_kurang_diminati  : INTEGER
+
+ALUR LOGIKA:
+   START
+   
+   // 1. Terima parameter matang dari Function 1 dan Function 2
+   // 2. Kalkulasi Persentase Proporsi Kategori Produk (Proteksi Zero-Division)
+   IF data_f1.Total_Omzet > 0 THEN
+      persen_coffee     <- (data_f1.Omzet_Coffee / data_f1.Total_Omzet) * 100
+      persen_non_coffee <- (data_f1.Omzet_NonCoffee / data_f1.Total_Omzet) * 100
+      persen_food       <- (data_f1.Omzet_Food / data_f1.Total_Omzet) * 100
+      persen_snacks     <- (data_f1.Omzet_Snacks / data_f1.Total_Omzet) * 100
+      
+      persen_cash       <- (data_f1.Omzet_Cash / data_f1.Total_Omzet) * 100
+      persen_qris       <- (data_f1.Omzet_QRIS / data_f1.Total_Omzet) * 100
+   ELSE
+      persen_coffee     <- 0
+      persen_non_coffee <- 0
+      persen_food       <- 0
+      persen_snacks     <- 0
+      persen_cash       <- 0
+      persen_qris       <- 0
+   ENDIF
+   
+   // 3. Analisis Menu Terlaris (Top Menu) dan Kurang Diminati (Bottom Menu)
+   IF JUMLAH_ELEMEN(data_f1.tabel_menu) > 0 THEN
+      menu_terlaris <- CARI_KUNCI_NILAI_TERTINGGI(data_f1.tabel_menu)
+      qty_terlaris <- data_f1.tabel_menu[menu_terlaris]
+      
+      menu_kurang_diminati <- CARI_KUNCI_NILAI_TERENDAH(data_f1.tabel_menu)
+      qty_kurang_diminati <- data_f1.tabel_menu[menu_kurang_diminati]
+   ELSE
+      menu_terlaris <- "Tidak ada data"
+      qty_terlaris <- 0
+      menu_kurang_diminati <- "Tidak ada data"
+      qty_kurang_diminati <- 0
+   ENDIF
+   
+   // 4. Perintah Penyusunan Dasbor Spreadsheet & Sisipkan Grafik Visual
+   BUAT_LEMBAR_SPREADSHEET("Dashboard_Temu_Tempo_Kopi")
+   
+   // A. Sisipkan Donut/Pie Chart Proporsi Kategori Menu
+   SISIPKAN_GRAFIK_PIE(
+      Judul       <- "Proporsi Penjualan Berdasarkan Kategori Menu",
+      Data_Sumber <- [("Coffee", data_f1.Omzet_Coffee),
+                      ("Non-Coffee", data_f1.Omzet_NonCoffee),
+                      ("Food", data_f1.Omzet_Food),
+                      ("Snacks", data_f1.Omzet_Snacks)],
+      Posisi_Sel  <- "F3"
+   )
+   
+   // B. Sisipkan Bar Chart Perbandingan Metode Pembayaran (Cash vs QRIS)
+   SISIPKAN_GRAFIK_BAR(
+      Judul       <- "Metode Pembayaran (Cash vs QRIS)",
+      Data_Sumber <- [("Tunai (Cash)", data_f1.Omzet_Cash),
+                      ("Digital (QRIS)", data_f1.Omzet_QRIS)],
+      Posisi_Sel  <- "F18"
+   )
+   
+   // C. Tampilkan Kartu Metrik Evaluasi Bisnis di Lembar Utama
+   TULIS_SEL("B3", "Total Omzet", data_f1.Total_Omzet)
+   TULIS_SEL("B5", "Laba Kotor", data_f1.Laba_Kotor)
+   TULIS_SEL("B7", "Total Pengeluaran Operasional", data_f2.Total_Pengeluaran_Bisnis)
+   TULIS_SEL("B9", "Laba Bersih Usaha Kedai", data_f2.Laba_Bersih)
+   TULIS_SEL("B11", "Total Pos Prive Pemilik", data_f2.Total_Prive)
+   TULIS_SEL("B13", "Sisa Kas Fisik di Laci", data_f2.Sisa_Kas)
+   
+   TULIS_SEL("B16", "Menu Paling Laris (Top)", menu_terlaris + " (" + qty_terlaris + " porsi)")
+   TULIS_SEL("B18", "Menu Kurang Diminati (Bottom)", menu_kurang_diminati + " (" + qty_kurang_diminati + " porsi)")
+   
+   PRINT "Dasbor evaluasi bisnis dan visualisasi grafik berhasil dibuat secara otomatis."
+   RETURN TRUE
+   END

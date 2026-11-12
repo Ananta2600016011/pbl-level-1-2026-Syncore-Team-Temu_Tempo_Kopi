@@ -1,0 +1,110 @@
+PSEUDOCODE FUNCTION 2: PENCATATAN ARUS KAS & PEMISAHAN POS PRIVE
+Digital Problem Framing Mini Project - Temu Tempo Kopi
+Syncore Team
+
+================================================================================
+ALGORITMA Function2_Input_Pengeluaran_dan_Prive
+================================================================================
+
+KAMUS DATA:
+   Total_Omzet              : REAL (Input dari Function 1)
+   Laba_Kotor               : REAL (Input dari Function 1)
+   Total_Pengeluaran_Bisnis : REAL
+   Total_Prive              : REAL
+   Laba_Bersih              : REAL
+   Sisa_Kas                 : REAL
+   pilihan_jenis            : INTEGER
+   keterangan               : STRING
+   nominal                  : REAL
+   lanjut_input             : BOOLEAN
+   jawaban_user             : STRING
+   tabel_pengeluaran_bisnis : LIST OF RECORD (Tanggal, Keterangan, Nominal)
+   tabel_prive              : LIST OF RECORD (Tanggal, Keterangan, Nominal)
+
+ALUR LOGIKA:
+   START
+   
+   // 1. Inisialisasi awal variabel akumulasi & status perulangan
+   Total_Pengeluaran_Bisnis <- 0
+   Total_Prive <- 0
+   lanjut_input <- TRUE
+   tabel_pengeluaran_bisnis <- INISIALISASI_LIST()
+   tabel_prive <- INISIALISASI_LIST()
+   
+   // 2. Loop perulangan input interaktif pengeluaran dan prive (Flowchart 2)
+   WHILE (lanjut_input == TRUE) DO
+      PRINT "=== MENU PENCATATAN ARUS KAS KEDAI ==="
+      PRINT "1. Pengeluaran Operasional Bisnis (Bahan Baku, Listrik, Es, dll.)"
+      PRINT "2. Penarikan Dana Pribadi Pemilik (Pos Prive)"
+      PRINT "Pilih opsi (1/2): "
+      INPUT pilihan_jenis
+      
+      // Percabangan berdasarkan kategori transaksi
+      IF pilihan_jenis == 1 THEN
+         PRINT "--- INPUT PENGELUARAN OPERASIONAL BISNIS ---"
+         PRINT "Masukkan Keterangan Pengeluaran: "
+         INPUT keterangan
+         PRINT "Masukkan Nominal (Rp): "
+         INPUT nominal
+         
+         IF nominal > 0 THEN
+            Total_Pengeluaran_Bisnis <- Total_Pengeluaran_Bisnis + nominal
+            TAMBAHKAN_KE_LIST(tabel_pengeluaran_bisnis, CURRENT_DATE(), keterangan, nominal)
+            PRINT "Pengeluaran operasional berhasil dicatat."
+         ELSE
+            PRINT "ERROR: Nominal harus lebih besar dari 0!"
+         ENDIF
+         
+      ELSE IF pilihan_jenis == 2 THEN
+         PRINT "--- INPUT PENARIKAN DANA PRIBADI (PRIVE) ---"
+         PRINT "Masukkan Keterangan Penarikan Prive: "
+         INPUT keterangan
+         PRINT "Masukkan Nominal (Rp): "
+         INPUT nominal
+         
+         IF nominal > 0 THEN
+            Total_Prive <- Total_Prive + nominal
+            TAMBAHKAN_KE_LIST(tabel_prive, CURRENT_DATE(), keterangan, nominal)
+            PRINT "Penarikan prive berhasil dicatat secara terpisah dari beban usaha."
+         ELSE
+            PRINT "ERROR: Nominal harus lebih besar dari 0!"
+         ENDIF
+         
+      ELSE
+         PRINT "Pilihan tidak valid! Masukkan angka 1 atau 2."
+         CONTINUE
+      ENDIF
+      
+      // Validasi pengulangan input
+      PRINT "Apakah ada transaksi pengeluaran/penarikan lain yang ingin dicatat? (YA/TIDAK): "
+      INPUT jawaban_user
+      
+      IF (jawaban_user == "TIDAK" OR jawaban_user == "tidak") THEN
+         lanjut_input <- FALSE
+      ENDIF
+   ENDWHILE
+   
+   // 3. Kalkulasi Finansial Akhir (Memisahkan distorsi prive terhadap laba usaha)
+   // Laba Bersih murni memotong Beban Usaha dari Laba Kotor
+   Laba_Bersih <- Laba_Kotor - Total_Pengeluaran_Bisnis
+   
+   // Sisa Kas Fisik di Laci memotong seluruh uang keluar (Beban + Prive) dari Total Omzet
+   Sisa_Kas <- Total_Omzet - Total_Pengeluaran_Bisnis - Total_Prive
+   
+   // 4. Tampilkan Laporan Ringkasan Keuangan
+   PRINT "=================================================="
+   PRINT "             LAPORAN KEUANGAN AKHIR               "
+   PRINT "=================================================="
+   PRINT "Total Omzet Penjualan      : Rp ", Total_Omzet
+   PRINT "Total Laba Kotor           : Rp ", Laba_Kotor
+   PRINT "Total Pengeluaran Bisnis   : Rp ", Total_Pengeluaran_Bisnis
+   PRINT "Total Prive Pemilik        : Rp ", Total_Prive
+   PRINT "--------------------------------------------------"
+   PRINT "Laba Bersih Usaha Kedai    : Rp ", Laba_Bersih
+   PRINT "Sisa Kas Fisik Aktual      : Rp ", Sisa_Kas
+   PRINT "=================================================="
+   
+   // 5. Kembalikan data keuangan ke Sistem Utama
+   RETURN (Total_Pengeluaran_Bisnis, Total_Prive, Laba_Bersih, Sisa_Kas,
+           tabel_pengeluaran_bisnis, tabel_prive)
+   END

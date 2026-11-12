@@ -1,0 +1,55 @@
+PSEUDOCODE SISTEM UTAMA
+Digital Problem Framing Mini Project - Temu Tempo Kopi
+Syncore Team
+
+================================================================================
+ALGORITMA Sistem_Utama_Temu_Tempo_Kopi
+================================================================================
+
+KAMUS DATA:
+   filepath_csv        : STRING
+   data_f1             : RECORD (Total_Omzet, Laba_Kotor, Total_Transaksi_Valid,
+                                 Omzet_Coffee, Omzet_NonCoffee, Omzet_Food, Omzet_Snacks,
+                                 Omzet_Cash, Omzet_QRIS, tabel_menu, tabel_kategori, tabel_pembayaran)
+   data_f2             : RECORD (Total_Pengeluaran_Bisnis, Total_Prive,
+                                 Laba_Bersih, Sisa_Kas, tabel_pengeluaran, tabel_prive)
+   status_eksekusi     : BOOLEAN
+
+ALUR LOGIKA:
+   START
+   
+   // Inisialisasi awal sistem
+   PRINT "=== SISTEM REKAPITULASI PENJUALAN & EVALUASI BISNIS TEMU TEMPO KOPI ==="
+   filepath_csv <- "daftar_transaksi.csv"
+   
+   // 1. Validasi keberadaan file transaksi kasir hasil ekspor Aplikasir
+   IF NOT File_Exists(filepath_csv) THEN
+      PRINT "ERROR: File transaksi CSV tidak ditemukan! Pastikan ekspor dari tablet kasir telah dimasukkan."
+      END
+   ENDIF
+   
+   // 2. Eksekusi Modul 1: Rekapitulasi Data Transaksi Kasir
+   PRINT "Menjalankan Function 1: Rekapitulasi Data Transaksi Kasir..."
+   data_f1 <- Function1_Rekapitulasi_Penjualan(filepath_csv)
+   
+   IF data_f1 == NULL THEN
+      PRINT "ERROR: Pemrosesan data transaksi gagal."
+      END
+   ENDIF
+   
+   // 3. Eksekusi Modul 2: Pencatatan Pengeluaran Operasional & Pos Prive
+   PRINT "Menjalankan Function 2: Pencatatan Arus Kas Operasional & Pemisahan Prive..."
+   data_f2 <- Function2_Input_Pengeluaran_dan_Prive(data_f1.Total_Omzet, data_f1.Laba_Kotor)
+   
+   // 4. Eksekusi Modul 3: Dasbor Evaluasi Bisnis & Pembuatan Grafik Spreadsheet
+   PRINT "Menjalankan Function 3: Visualisasi Dasbor & Grafik Spreadsheet..."
+   status_eksekusi <- Function3_Evaluasi_dan_Visualisasi(data_f1, data_f2)
+   
+   IF status_eksekusi == TRUE THEN
+      PRINT "Proses Selesai: Dasbor dan grafik berhasil diperbarui secara otomatis."
+   ELSE
+      PRINT "Peringatan: Dasbor selesai dibuat dengan catatan penyesuaian."
+   ENDIF
+   
+   PRINT "========================================================================"
+   END

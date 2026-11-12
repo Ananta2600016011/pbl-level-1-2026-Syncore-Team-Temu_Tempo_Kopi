@@ -1,0 +1,118 @@
+PSEUDOCODE FUNCTION 1: REKAPITULASI PENJUALAN MINGGUAN DARI CSV KASIR
+Digital Problem Framing Mini Project - Temu Tempo Kopi
+Syncore Team
+
+================================================================================
+ALGORITMA Function1_Rekapitulasi_Penjualan
+================================================================================
+
+KAMUS DATA:
+   filepath_csv                : STRING
+   Total_Omzet                 : REAL
+   Laba_Kotor                  : REAL
+   Total_Transaksi_Valid       : INTEGER
+   Omzet_Coffee                : REAL
+   Omzet_NonCoffee             : REAL
+   Omzet_Food                  : REAL
+   Omzet_Snacks                : REAL
+   Omzet_Cash                  : REAL
+   Omzet_QRIS                  : REAL
+   nomor_transaksi_sebelumnya  : STRING
+   tabel_menu                  : DICTIONARY (Nama_Menu -> Total_QTY)
+   tabel_kategori              : LIST OF RECORD
+   tabel_pembayaran            : LIST OF RECORD
+   baris                       : RECORD (Nomor, Tanggal, Nama_Menu, Kategori,
+                                         QTY, Harga_Jual, Harga_Pokok, Subtotal, Metode_Bayar)
+   laba_kotor_per_item         : REAL
+   subtotal                    : REAL
+
+ALUR LOGIKA:
+   START
+   
+   // 1. Inisialisasi variabel akumulator & wadah penyimpanan (Sesuai Flowchart 1)
+   Total_Omzet <- 0
+   Laba_Kotor <- 0
+   Total_Transaksi_Valid <- 0
+   
+   Omzet_Coffee <- 0
+   Omzet_NonCoffee <- 0
+   Omzet_Food <- 0
+   Omzet_Snacks <- 0
+   
+   Omzet_Cash <- 0
+   Omzet_QRIS <- 0
+   
+   nomor_transaksi_sebelumnya <- ""
+   tabel_menu <- INISIALISASI_DICTIONARY()
+   tabel_kategori <- INISIALISASI_LIST()
+   tabel_pembayaran <- INISIALISASI_LIST()
+   
+   // 2. Buka dan baca file CSV transaksi
+   BUKA_BERKAS(filepath_csv)
+   
+   // 3. Perulangan membaca baris demi baris transaksi (Looping Flowchart 1)
+   WHILE MASIH_ADA_BARIS_CSV(filepath_csv) DO
+      BACA baris
+      
+      // Hitung Laba Kotor per item dan Subtotal
+      laba_kotor_per_item <- baris.Harga_Jual - baris.Harga_Pokok
+      Laba_Kotor <- Laba_Kotor + (laba_kotor_per_item * baris.QTY)
+      
+      subtotal <- baris.QTY * baris.Harga_Jual
+      Total_Omzet <- Total_Omzet + subtotal
+      
+      // Akumulasi kuantitas menu individu untuk analisis Top/Bottom menu
+      IF tabel_menu_berisi(baris.Nama_Menu) THEN
+         tabel_menu[baris.Nama_Menu] <- tabel_menu[baris.Nama_Menu] + baris.QTY
+      ELSE
+         tabel_menu[baris.Nama_Menu] <- baris.QTY
+      ENDIF
+      
+      // Validasi dan hitung transaksi unik (Nomor transaksi baru)
+      IF baris.Nomor != nomor_transaksi_sebelumnya THEN
+         Total_Transaksi_Valid <- Total_Transaksi_Valid + 1
+         nomor_transaksi_sebelumnya <- baris.Nomor
+      ENDIF
+      
+      // Klasifikasi dan akumulasi omzet berdasarkan kategori produk
+      IF baris.Kategori == "COFFEE" THEN
+         Omzet_Coffee <- Omzet_Coffee + subtotal
+      ELSE IF baris.Kategori == "NON-COFFEE" THEN
+         Omzet_NonCoffee <- Omzet_NonCoffee + subtotal
+      ELSE IF baris.Kategori == "FOOD" THEN
+         Omzet_Food <- Omzet_Food + subtotal
+      ELSE IF baris.Kategori == "SNACKS" THEN
+         Omzet_Snacks <- Omzet_Snacks + subtotal
+      ENDIF
+      TAMBAHKAN_KE_LIST(tabel_kategori, baris.Kategori, subtotal)
+      
+      // Klasifikasi dan akumulasi omzet berdasarkan metode pembayaran
+      IF baris.Metode_Bayar == "CASH" THEN
+         Omzet_Cash <- Omzet_Cash + subtotal
+      ELSE IF baris.Metode_Bayar == "QRIS" THEN
+         Omzet_QRIS <- Omzet_QRIS + subtotal
+      ENDIF
+      TAMBAHKAN_KE_LIST(tabel_pembayaran, baris.Metode_Bayar, subtotal)
+      
+      // Alur kembali ke atas membaca baris transaksi CSV berikutnya
+   ENDWHILE
+   
+   // 4. Tampilkan ringkasan hasil rekapitulasi data penjualan
+   PRINT "=== RINGKASAN REKAPITULASI PENJUALAN MINGGUAN ==="
+   PRINT "Total Omzet Kotor    : Rp ", Total_Omzet
+   PRINT "Total Laba Kotor     : Rp ", Laba_Kotor
+   PRINT "Total Transaksi Valid: ", Total_Transaksi_Valid
+   PRINT "Proporsi Omzet Kategori:"
+   PRINT "- Coffee     : Rp ", Omzet_Coffee
+   PRINT "- Non-Coffee : Rp ", Omzet_NonCoffee
+   PRINT "- Food       : Rp ", Omzet_Food
+   PRINT "- Snacks     : Rp ", Omzet_Snacks
+   PRINT "Metode Pembayaran:"
+   PRINT "- Tunai (Cash) : Rp ", Omzet_Cash
+   PRINT "- Digital (QRIS): Rp ", Omzet_QRIS
+   
+   // 5. Kembalikan data rekapitulasi ke Sistem Utama
+   RETURN (Total_Omzet, Laba_Kotor, Total_Transaksi_Valid,
+           Omzet_Coffee, Omzet_NonCoffee, Omzet_Food, Omzet_Snacks,
+           Omzet_Cash, Omzet_QRIS, tabel_menu, tabel_kategori, tabel_pembayaran)
+   END
