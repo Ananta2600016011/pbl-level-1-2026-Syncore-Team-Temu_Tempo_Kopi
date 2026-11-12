@@ -201,7 +201,7 @@ ALUR LOGIKA:
 
 ## 5. Hasil Validasi Pemilik Usaha
 
-- **Tanggal validasi**: 26 Oktober 2026 (Observasi 2) & (Validasi User Story)
+- **Tanggal validasi**: 02-11-2026 (Observasi 2) & (Validasi User Story)
 - **Feedback pemilik**: Mas Joy sangat menyambut baik solusi alat bantu rekapitulasi ini karena tidak mengharuskannya mengganti aplikasi kasir utama di tablet. Mas Joy juga menyetujui opsi ekspor berkas berformat `CSV Coma` dari Aplikasir dan membenarkan bahwa pemisahan pos prive adalah solusi yang paling dibutuhkan untuk mengatasi selisih kas.
 - **Perubahan setelah validasi**:
   1. Menegaskan batasan sistem: membatalkan rencana awal pembuatan POS kasir baru agar operasional harian kedai tidak terganggu.
